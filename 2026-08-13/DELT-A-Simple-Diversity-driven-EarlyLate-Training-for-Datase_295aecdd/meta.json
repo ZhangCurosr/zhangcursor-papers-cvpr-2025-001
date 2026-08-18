@@ -4,5 +4,33 @@
  "title": "DELT-A-Simple-Diversity-driven-EarlyLate-Training-for-Datase",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 06:58:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75618998-3acf-4826-a625-7cf270154a72.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75618998-3acf-4826-a625-7cf270154a72.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:59:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据集蒸馏",
+    "批到全局匹配",
+    "图像多样性",
+    "EarlyLate训练",
+    "BN正则化",
+    "大尺度图像分类"
+   ],
+   "field": "数据压缩与高效学习",
+   "innovations": [
+    "EarlyLate训练策略：通过差异化迭代次数实现类内多样性增强",
+    "教师模型中位概率排序的真实图像块初始化",
+    "单次扫描拼接渐进训练，计算效率提升约39.3%"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "CIFAR-10",
+    "Tiny-ImageNet",
+    "ImageNette",
+    "ImageNet-100"
+   ]
+  }
+ }
 }

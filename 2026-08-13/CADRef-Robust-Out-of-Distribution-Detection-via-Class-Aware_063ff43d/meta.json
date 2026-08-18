@@ -4,5 +4,42 @@
  "title": "CADRef-Robust-Out-of-Distribution-Detection-via-Class-Aware",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 06:57:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/56eab8fa-3257-489d-b57a-aa33ef0df65d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/56eab8fa-3257-489d-b57a-aa33ef0df65d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:57:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OOD检测",
+    "分布外检测",
+    "特征解耦",
+    "类别感知",
+    "post-hoc方法",
+    "异常检测"
+   ],
+   "field": "分布外检测与模型鲁棒性",
+   "innovations": [
+    "提出类别感知相对特征误差CARef，直接利用特征与类别中心的相对误差作为OOD分数",
+    "设计基于符号对齐的特征解耦机制，将相对特征精细分解为正负误差分量",
+    "提出logit驱动的误差缩放策略，有效缓解正误差在高logit值下的ID/OOD重叠问题"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-O",
+    "OpenImage-O",
+    "SUN",
+    "Places",
+    "iNaturalist",
+    "SVHN",
+    "LSUN-Crop",
+    "LSUN-Resize",
+    "iSUN",
+    "SSB-hard",
+    "Ninco"
+   ]
+  }
+ }
 }

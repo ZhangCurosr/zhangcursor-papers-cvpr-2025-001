@@ -4,5 +4,10 @@
  "title": "CORE4D-A-4D-Human-Object-Human-Interaction-Dataset-for-Colla",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 06:57:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/35b6d79d-a9bd-4526-8d11-a53c6954fbed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/35b6d79d-a9bd-4526-8d11-a53c6954fbed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:58:21",
+  "chunks": 1
+ }
 }

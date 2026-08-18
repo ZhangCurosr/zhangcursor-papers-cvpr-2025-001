@@ -4,5 +4,30 @@
  "title": "Brain-Inspired-Spiking-Neural-Networks-for-Energy-Efficient",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:58:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b52211c9-e42d-41af-8ffa-c152ebf675cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b52211c9-e42d-41af-8ffa-c152ebf675cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:56:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spiking Neural Network",
+    "Object Detection",
+    "Energy Efficiency",
+    "Direct Training",
+    "Multi-scale Fusion",
+    "Event Camera"
+   ],
+   "field": "脉冲神经网络目标检测",
+   "innovations": [
+    "提出全脉冲架构的MSD框架，直接训练避免ANN转换损失",
+    "设计SCN和ONNB模块，实现高效深层特征提取",
+    "多尺度脉冲检测框架MSDF降低能耗82.9%"
+   ],
+   "benchmarks": [
+    "COCO 2017",
+    "Gen1"
+   ]
+  }
+ }
 }

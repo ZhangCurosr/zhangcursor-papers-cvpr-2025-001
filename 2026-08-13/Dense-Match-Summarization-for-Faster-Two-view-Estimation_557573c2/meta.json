@@ -4,5 +4,31 @@
  "title": "Dense-Match-Summarization-for-Faster-Two-view-Estimation",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 06:58:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8739c82b-e357-4254-805b-34fc54d7bd2f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8739c82b-e357-4254-805b-34fc54d7bd2f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:00:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "两视图几何",
+    "密集匹配",
+    "RANSAC加速",
+    "相对位姿估计",
+    "匹配摘要",
+    "计算几何"
+   ],
+   "field": "计算摄影与三维视觉",
+   "innovations": [
+    "提出与匹配器无关的密集匹配聚类摘要方案，实现10-100倍RANSAC加速",
+    "设计基于9x9矩阵的近似的残差富集方法以在稀疏化后补偿精度损失",
+    "系统验证了在多个SOTA密集匹配器和基准上，该方法在精度-速度权衡上优于简单下采样及稀疏匹配"
+   ],
+   "benchmarks": [
+    "MegaDepth-1500",
+    "ScanNet-1500",
+    "WxBS"
+   ]
+  }
+ }
 }

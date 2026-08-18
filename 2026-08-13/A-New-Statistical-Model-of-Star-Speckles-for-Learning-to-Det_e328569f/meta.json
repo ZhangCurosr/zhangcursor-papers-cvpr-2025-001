@@ -4,5 +4,30 @@
  "title": "A-New-Statistical-Model-of-Star-Speckles-for-Learning-to-Det",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 06:58:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d434b455-27ce-44b3-9ca5-7e35a3349eac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d434b455-27ce-44b3-9ca5-7e35a3349eac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:54:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "系外行星直接成像",
+    "星斑噪声建模",
+    "角度-光谱差分成像",
+    "统计学习",
+    "端到端检测"
+   ],
+   "field": "天文图像处理",
+   "innovations": [
+    "融合多尺度旋转对称性与光谱同仿射对齐的卷积高斯统计噪声模型",
+    "检测分数图UNet去噪后处理实现可解释端到端联合检测与通量估计"
+   ],
+   "benchmarks": [
+    "SPHERE/VLT ADI-ASDI 基准",
+    "AUC检测性能",
+    "ARE通量误差",
+    "RMSE定位误差"
+   ]
+  }
+ }
 }

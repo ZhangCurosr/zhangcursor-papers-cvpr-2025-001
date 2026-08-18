@@ -4,5 +4,35 @@
  "title": "DKC-Differentiated-Knowledge-Consolidation-for-Cloth-Hybrid",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 06:57:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d07a2428-fc33-41bd-9384-7e5762f3a2a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d07a2428-fc33-41bd-9384-7e5762f3a2a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:59:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Lifelong Person Re-identification",
+    "Cloth-Hybrid ReID",
+    "Catastrophic Forgetting",
+    "Knowledge Distillation",
+    "Distribution Alignment",
+    "Differential Knowledge"
+   ],
+   "field": "终身行人重识别",
+   "innovations": [
+    "提出CH-LReID任务，首次系统研究换衣混合场景下的终身行人重识别问题",
+    "DKT模块通过DB-SCAN细粒度聚类自适应融合新旧差异化知识",
+    "DDA模块在实例级与细粒度级双层级对齐新旧知识分布以缓解知识冲突"
+   ],
+   "benchmarks": [
+    "Market-1501",
+    "MSMT17-V2",
+    "DukeMTMC-ReID",
+    "LTCC",
+    "PRCC",
+    "CUHK03",
+    "CUHK-SYSU"
+   ]
+  }
+ }
 }

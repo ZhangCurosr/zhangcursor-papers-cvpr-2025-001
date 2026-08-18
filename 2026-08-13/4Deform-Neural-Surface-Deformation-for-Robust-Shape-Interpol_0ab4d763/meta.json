@@ -4,5 +4,32 @@
  "title": "4Deform-Neural-Surface-Deformation-for-Robust-Shape-Interpol",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 06:58:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0b1ce72f-9da0-42e3-8fb9-46cc21379180.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0b1ce72f-9da0-42e3-8fb9-46cc21379180.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:53:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D shape interpolation",
+    "neural implicit representation",
+    "non-rigid deformation",
+    "level-set method",
+    "point cloud processing"
+   ],
+   "field": "3D形状重建与变形",
+   "innovations": [
+    "提出基于隐式表示和速度场的端到端形状插值框架，仅需稀疏噪声对应",
+    "从连续介质力学导出畸变损失和切平面拉伸损失，无需网格连通性保证物理合理性",
+    "首次实现真实世界Kinect点云序列的鲁棒插值与时间上采样"
+   ],
+   "benchmarks": [
+    "4D-DRESS",
+    "FAUST",
+    "SMAL",
+    "SHREC16",
+    "BeHave"
+   ]
+  }
+ }
 }

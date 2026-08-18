@@ -4,5 +4,10 @@
  "title": "ABBSPO-Adaptive-Bounding-Box-Scaling-and-Symmetric-Prior-bas",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 06:58:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/92a15919-7177-4ead-94a9-f0737881b20f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/92a15919-7177-4ead-94a9-f0737881b20f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:54:01",
+  "chunks": 1
+ }
 }

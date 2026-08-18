@@ -4,5 +4,31 @@
  "title": "AMR-Transformer-Enabling-Efficient-Long-range-Interaction-fo",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 06:58:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bffae560-d340-424b-8095-04e903648ea8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bffae560-d340-424b-8095-04e903648ea8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:54:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Adaptive Mesh Refinement",
+    "Fluid Simulation",
+    "Transformer",
+    "Navier-Stokes",
+    "PDE Solver",
+    "Long-range Dependency"
+   ],
+   "field": "科学机器学习/流体动力学模拟",
+   "innovations": [
+    "基于N-S物理约束的自适应AMR Tokenizer，实现计算资源的动态分配",
+    "训练时随机采样阈值因子+手动后调策略，平衡精度与效率",
+    "结合前向欧拉虚拟速度场的预测-响应式细分决策机制"
+   ],
+   "benchmarks": [
+    "CFDBench",
+    "PDEBench",
+    "Shockwave"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Debiasing-Multimodal-Large-Language-Models-via-Noise-Aware-P",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/39d925f4-382c-40fb-8ecc-79419bca5623.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/39d925f4-382c-40fb-8ecc-79419bca5623.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:00:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模态偏差",
+    "偏好优化",
+    "噪声鲁棒",
+    "多模态大语言模型",
+    "幻觉缓解",
+    "DPO",
+    "Box-Cox变换"
+   ],
+   "field": "多模态大语言模型对齐与去偏",
+   "innovations": [
+    "提出 NaPO 算法，通过负 Box-Cox 变换融合 DPO 的 BCE 与 MAE 实现噪声鲁棒的偏好优化",
+    "构造 RLAIF-V-Bias 去偏偏好优化数据集，利用模态掩码扰动生成语言/视觉有偏响应作为负样本",
+    "设计基于奖励边距的动态噪声评估机制，自适应调整噪声鲁棒系数和 loss 权重"
+   ],
+   "benchmarks": [
+    "VLind-Bench",
+    "Object HalBench",
+    "AM-BER",
+    "MMHalBench"
+   ]
+  }
+ }
 }

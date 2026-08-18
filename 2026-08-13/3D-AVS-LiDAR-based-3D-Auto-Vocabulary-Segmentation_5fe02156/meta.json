@@ -4,5 +4,32 @@
  "title": "3D-AVS-LiDAR-based-3D-Auto-Vocabulary-Segmentation",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 06:57:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1adf56bd-b223-45ca-bfe0-c68872bb0022.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1adf56bd-b223-45ca-bfe0-c68872bb0022.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:54:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D auto-vocabulary segmentation",
+    "LiDAR point cloud",
+    "open-vocabulary segmentation",
+    "CLIP",
+    "point captioning",
+    "SMAP",
+    "TPSS metric"
+   ],
+   "field": "3D开放词汇语义分割",
+   "innovations": [
+    "首次提出3D点云自动词汇分割任务，动态生成场景特定词汇无需人工定义",
+    "设计仅依赖几何信息的LiDAR点云captioner，通过SMAP模块实现多区域可控描述生成",
+    "提出TPSS无标注评估指标，在CLIP空间中度量点-文本语义一致性避免标注偏差"
+   ],
+   "benchmarks": [
+    "nuScenes",
+    "ScanNet",
+    "ScanNet200"
+   ]
+  }
+ }
 }

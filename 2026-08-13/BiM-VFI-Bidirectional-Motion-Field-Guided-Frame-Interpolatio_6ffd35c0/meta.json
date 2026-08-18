@@ -4,5 +4,33 @@
  "title": "BiM-VFI-Bidirectional-Motion-Field-Guided-Frame-Interpolatio",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/67fa9639-0851-4d85-aae3-44e38f20efb3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/67fa9639-0851-4d85-aae3-44e38f20efb3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:55:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频帧插值",
+    "双向运动场",
+    "时间-位置歧义",
+    "非均匀运动",
+    "知识蒸馏",
+    "光流估计"
+   ],
+   "field": "视频帧插值",
+   "innovations": [
+    "提出BiM双向运动场描述符消除TTL歧义，同时编码运动幅度和方向信息",
+    "设计KDVCF知识蒸馏策略，利用目标帧生成VFI中心化的光流监督信号",
+    "将内容感知上采样网络引入VFI，有效防止物体边界光流泄漏"
+   ],
+   "benchmarks": [
+    "Vimeo90K-septuplet",
+    "SNU-FILM-arb",
+    "XTest",
+    "Vimeo90K-triplet",
+    "SNU-FILM"
+   ]
+  }
+ }
 }

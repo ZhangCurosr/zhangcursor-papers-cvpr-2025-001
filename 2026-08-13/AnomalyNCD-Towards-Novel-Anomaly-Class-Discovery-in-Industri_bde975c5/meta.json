@@ -4,5 +4,31 @@
  "title": "AnomalyNCD-Towards-Novel-Anomaly-Class-Discovery-in-Industri",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 06:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/08b3e2d9-d997-4bb3-be19-2656d94c4c00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/08b3e2d9-d997-4bb3-be19-2656d94c4c00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:55:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工业异常检测",
+    "多类异常分类",
+    "新型类发现",
+    "掩码引导注意力",
+    "主元二值化",
+    "自监督学习"
+   ],
+   "field": "工业视觉异常检测",
+   "innovations": [
+    "提出MEBin主元二值化，通过多阈值稳定性分析提取鲁棒的异常主区域",
+    "设计MGViT掩码引导ViT注意力，强制[CLS] token聚焦局部弱语义异常",
+    "结合伪标签修正与面积加权区域合并，实现兼容任意AD方法的端到端异常分类"
+   ],
+   "benchmarks": [
+    "MVTec AD",
+    "MTD",
+    "AeBAD-S"
+   ]
+  }
+ }
 }

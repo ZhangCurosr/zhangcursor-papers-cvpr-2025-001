@@ -4,5 +4,31 @@
  "title": "Descriptor-In-Pixel-Point-Feature-Tracking-for-Pixel-Process",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 06:58:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d2a07b5b-795c-4876-b3b5-67c0c5b8bd82.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d2a07b5b-795c-4876-b3b5-67c0c5b8bd82.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:01:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Pixel Processor Array",
+    "点特征跟踪",
+    "片上计算",
+    "描述子匹配",
+    "高速视觉",
+    "边缘视觉传感器",
+    "SIMD 并行计算"
+   ],
+   "field": "边缘视觉传感器与片上计算",
+   "innovations": [
+    "提出 Descriptor-In-Pixel 范式，将特征描述子存储于每个像素处理器本地内存中实现全片上端到端检测与跟踪",
+    "设计加权像素对描述子响应度量，利用模拟计算能力抑制弱纹理区域误匹配",
+    "提出 Patchwork 响应图机制，通过描述子布局在同一并行操作中统一完成特征跟踪与检测"
+   ],
+   "benchmarks": [
+    "SCAMP-7 PPA 原型（256×256），3000+ FPS",
+    "与 FAST 角点检测 + 最近邻跟踪基线对比（1000 FPS，特征寿命直方图）"
+   ]
+  }
+ }
 }

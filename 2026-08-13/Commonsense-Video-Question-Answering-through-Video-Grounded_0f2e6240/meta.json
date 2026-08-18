@@ -4,5 +4,30 @@
  "title": "Commonsense-Video-Question-Answering-through-Video-Grounded",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 06:57:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e439c8e-9da0-4bf0-8f42-1af36485f705.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e439c8e-9da0-4bf0-8f42-1af36485f705.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:58:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频问答",
+    "蕴含树推理",
+    "视频定位",
+    "常识推理",
+    "去偏评估"
+   ],
+   "field": "视频理解与问答",
+   "innovations": [
+    "首个视频定位的蕴含树推理框架，实现可解释视频推理",
+    "提出LLM驱动的答案集去偏程序，量化并缓解文本捷径偏差",
+    "视频-语言联合验证机制：事实条件化描述+结构化语义检索+导航策略"
+   ],
+   "benchmarks": [
+    "NExT-QA",
+    "IntentQA",
+    "Video-MME"
+   ]
+  }
+ }
 }

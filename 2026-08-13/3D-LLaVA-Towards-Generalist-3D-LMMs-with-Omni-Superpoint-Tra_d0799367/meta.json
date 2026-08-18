@@ -4,5 +4,34 @@
  "title": "3D-LLaVA-Towards-Generalist-3D-LMMs-with-Omni-Superpoint-Tra",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 06:58:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e6133d48-53ce-4aba-9530-64cc46121fa1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e6133d48-53ce-4aba-9530-64cc46121fa1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:53:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D LMM",
+    "Omni Superpoint Transformer",
+    "Referring Segmentation",
+    "Visual Prompt Encoding",
+    "Hybrid Pretraining",
+    "Knowledge Distillation",
+    "Instruction Tuning"
+   ],
+   "field": "3D视觉-语言多模态理解",
+   "innovations": [
+    "提出Omni Superpoint Transformer作为多功能视觉连接器，统一实现特征选择、提示编码与掩码解码",
+    "设计参数-free视觉采样器复用冻结OST作为视觉提示编码器，避免额外可学习参数优化困难",
+    "提出hybrid pretraining策略融合实例分割与2D-to-3D知识蒸馏，解决3D基础视觉模型缺失问题"
+   ],
+   "benchmarks": [
+    "ScanRefer",
+    "Multi3DRefer",
+    "ScanQA",
+    "SQA3D",
+    "Scan2Cap"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "CAP4D-Creating-Animatable-4D-Portrait-Avatars-with-Morphable",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 06:57:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/833dfdd7-aa5a-4e87-ad28-30bfe28a02ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/833dfdd7-aa5a-4e87-ad28-30bfe28a02ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:57:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D Avatar Reconstruction",
+    "Multi-View Diffusion Model",
+    "3D Gaussian Splatting",
+    "Portrait Animation",
+    "Single-image Reconstruction"
+   ],
+   "field": "3D/4D Generative Modeling",
+   "innovations": [
+    "提出可变形多视角扩散模型(MMDM)结合随机I/O条件机制，支持任意数量参考图重建4D头像",
+    "设计基于3D高斯溅射与U-Net变形预测的4D实时渲染流水线，实现高保真表情细节"
+   ],
+   "benchmarks": [
+    "NeRsemble",
+    "FFHQ",
+    "VFHQ"
+   ]
+  }
+ }
 }

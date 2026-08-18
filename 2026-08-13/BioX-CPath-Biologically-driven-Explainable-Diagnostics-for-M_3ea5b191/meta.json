@@ -4,5 +4,32 @@
  "title": "BioX-CPath-Biologically-driven-Explainable-Diagnostics-for-M",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 06:58:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/745ced46-1586-433e-8adb-3da9e4533936.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/745ced46-1586-433e-8adb-3da9e4533936.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:56:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computational pathology",
+    "multi-stain IHC",
+    "graph neural network",
+    "explainable diagnostics",
+    "whole slide image",
+    "stain-aware attention pooling",
+    "rheumatoid arthritis",
+    "Sjogren syndrome"
+   ],
+   "field": "可解释计算病理与多模态WSI分析",
+   "innovations": [
+    "提出SAAP染色感知注意力池化，生成具有染色相对重要性的患者级嵌入",
+    "联合特征空间与空间/堆栈邻接构建G_FRA，实现跨染色消息传递",
+    "提供染色注意力、染色熵与染色间交互得分等可解释指标并与已知病理机制对齐"
+   ],
+   "benchmarks": [
+    "Rheumatoid Arthritis multistain WSI cohort",
+    "Sjogren's Disease labial salivary gland multistain WSI cohort"
+   ]
+  }
+ }
 }

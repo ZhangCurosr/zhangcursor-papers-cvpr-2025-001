@@ -4,5 +4,32 @@
  "title": "ColabSfM-Collaborative-Structure-from-Motion-by-Point-Cloud",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 06:58:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/738cd4cb-136a-4b4c-bc10-5fa1ce4bbcb4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/738cd4cb-136a-4b4c-bc10-5fa1ce4bbcb4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:58:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Collaborative SfM",
+    "point cloud registration",
+    "structure from motion",
+    "3D reconstruction",
+    "SE(3) invariant",
+    "synthetic dataset generation"
+   ],
+   "field": "3D计算机视觉与几何学习",
+   "innovations": [
+    "将SfM地图合并定义为纯几何点云配准任务，无需视觉描述子",
+    "提出基于部分轨迹合成的SfM配准数据集生成管线",
+    "改进RoITr引入Refinement Transformer提升SfM配准性能"
+   ],
+   "benchmarks": [
+    "MegaDepth",
+    "Cambridge Landmarks",
+    "7-Scenes",
+    "Quad6k"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "AI-Face-A-Million-Scale-Demographically-Annotated-AI-Generat",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:58:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e76a5e34-a1e6-40fd-8569-1125a56379e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e76a5e34-a1e6-40fd-8569-1125a56379e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:54:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI生成人脸检测",
+    "公平性基准",
+    "人口统计标注",
+    "数据集构建",
+    "公平性增强",
+    "扩散模型",
+    "深伪检测"
+   ],
+   "field": "AI生成内容检测与公平性",
+   "innovations": [
+    "首个百万级带人口统计标注的AI生成人脸数据集，覆盖深伪视频/GAN/扩散模型三类生成方式",
+    "基于CLIP的轻量级公平标注器，引入Vector Scaling不平衡损失和Sinkhorn公平性损失联合优化",
+    "首个综合评估公平性、后处理鲁棒性与跨域泛化能力的AI人脸检测器公平性基准测试"
+   ],
+   "benchmarks": [
+    "AI-Face",
+    "CCv2",
+    "DF-Platter",
+    "GenData"
+   ]
+  }
+ }
 }

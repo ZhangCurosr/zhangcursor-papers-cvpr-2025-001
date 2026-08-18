@@ -4,5 +4,33 @@
  "title": "Cross-View-Completion-Models-are-Zero-shot-Correspondence-Es",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 06:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/93f98fe4-6092-4525-aa67-e3ef3665960f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/93f98fe4-6092-4525-aa67-e3ef3665960f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:58:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-view completion",
+    "zero-shot correspondence",
+    "dense matching",
+    "self-supervised learning",
+    "cross-attention",
+    "multi-frame depth estimation",
+    "geometric vision"
+   ],
+   "field": "自监督几何视觉表示学习",
+   "innovations": [
+    "揭示CVC模型的cross-attention map是有效的零样本对应估计器",
+    "提出ZeroCo通过reciprocity融合双向cross-attention实现SOTA零样本密集匹配",
+    "在冻结cross-attention基础上添加轻量head，在有监督几何匹配与多帧深度估计上超越使用大规模数据的基线"
+   ],
+   "benchmarks": [
+    "HPatches",
+    "ETH3D",
+    "KITTI Eigen split",
+    "Cityscapes (dynamic objects)"
+   ]
+  }
+ }
 }

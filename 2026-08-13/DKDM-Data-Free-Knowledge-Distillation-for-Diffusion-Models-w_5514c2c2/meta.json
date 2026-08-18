@@ -4,5 +4,33 @@
  "title": "DKDM-Data-Free-Knowledge-Distillation-for-Diffusion-Models-w",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/93fabf40-0868-4408-9794-fd99b7d22841.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/93fabf40-0868-4408-9794-fd99b7d22841.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:59:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散模型",
+    "知识蒸馏",
+    "数据无关训练",
+    "生成模型",
+    "模型压缩",
+    "DKDM"
+   ],
+   "field": "生成模型与模型压缩",
+   "innovations": [
+    "提出数据无关的扩散模型蒸馏新范式(DKDM)，无需访问真实数据集即可训练任意架构的扩散模型",
+    "设计DKDM目标函数，用教师逆向分布替代真实扩散后验和先验",
+    "提出动态迭代蒸馏方法，将知识形式定义为时间域噪声样本，效率提升至O(b)"
+   ],
+   "benchmarks": [
+    "CIFAR10",
+    "CelebA 64x64",
+    "ImageNet 32x32",
+    "CelebA-HQ 256x256",
+    "FFHQ 256x256"
+   ]
+  }
+ }
 }

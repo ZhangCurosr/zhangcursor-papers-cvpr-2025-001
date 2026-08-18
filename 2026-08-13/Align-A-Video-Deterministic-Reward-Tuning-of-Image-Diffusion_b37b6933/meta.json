@@ -4,5 +4,32 @@
  "title": "Align-A-Video-Deterministic-Reward-Tuning-of-Image-Diffusion",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 06:58:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5fe96bc-2d86-4385-82e1-7213a2dc0c82.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5fe96bc-2d86-4385-82e1-7213a2dc0c82.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:55:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频编辑",
+    "奖励微调",
+    "扩散模型",
+    "时序一致性",
+    "确定性优化",
+    "跨帧注意力"
+   ],
+   "field": "视频生成与编辑",
+   "innovations": [
+    "确定性奖励微调策略：固定初始噪声实现分钟级稳定优化",
+    "跨帧特征传播机制：锚帧优化特征经注意力传播至全视频"
+   ],
+   "benchmarks": [
+    "V2VBench",
+    "DOVER Score",
+    "Pick Score",
+    "CLIP Score",
+    "ViCLIP Score"
+   ]
+  }
+ }
 }

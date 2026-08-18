@@ -4,5 +4,34 @@
  "title": "Annotation-Ambiguity-Aware-Semi-Supervised-Medical-Image-Seg",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 06:57:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b48aa6bf-97ae-4f55-8a34-673233194400.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b48aa6bf-97ae-4f55-8a34-673233194400.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:54:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semi-supervised learning",
+    "medical image segmentation",
+    "annotation ambiguity",
+    "pseudo-label generation",
+    "latent distribution learning",
+    "cross-decoder supervision"
+   ],
+   "field": "医学图像分析与半监督学习",
+   "innovations": [
+    "首个结合标注歧义感知与半监督学习的医学图像分割框架",
+    "基于随机剪枝解码器的多样性伪标签生成机制，无需额外网络即可产生多种合理分割",
+    "利用Laplace分布对伪标签后验建模以降低不可靠伪标签的过拟合风险"
+   ],
+   "benchmarks": [
+    "LIDC-IDRI",
+    "ISIC 2018",
+    "Probabilistic U-Net",
+    "Pionono",
+    "D-Persona",
+    "Cross Pseudo Supervision"
+   ]
+  }
+ }
 }

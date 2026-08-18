@@ -4,5 +4,32 @@
  "title": "Blood-Flow-Speed-Estimation-with-Optical-Coherence-Tomograph",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 06:58:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d04950b7-6e03-43f6-8303-1dcdc86543c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d04950b7-6e03-43f6-8303-1dcdc86543c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:56:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OCTA",
+    "ODT",
+    "blood flow estimation",
+    "pseudo label",
+    "Adaptive Window Fusion",
+    "Conditional Random Field Decoder",
+    "Swin Transformer",
+    "medical image regression"
+   ],
+   "field": "医学图像计算与生物光学成像分析",
+   "innovations": [
+    "以 ODT 伪标签驱动直接从 OCTA 图像回归血流速度",
+    "多尺度自适应窗口融合模块 AWF",
+    "多层特征结构化平滑解码器 CRFD"
+   ],
+   "benchmarks": [
+    "Anesthetized Dataset",
+    "Awake Dataset"
+   ]
+  }
+ }
 }

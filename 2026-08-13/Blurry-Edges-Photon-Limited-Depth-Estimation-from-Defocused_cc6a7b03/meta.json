@@ -4,5 +4,30 @@
  "title": "Blurry-Edges-Photon-Limited-Depth-Estimation-from-Defocused",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 06:58:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/639c94c2-b64c-45d4-bf41-ad63a6f70832.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/639c94c2-b64c-45d4-bf41-ad63a6f70832.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:56:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Depth from Defocus",
+    "Photon-limited imaging",
+    "Blurry-Edges",
+    "Low-noise boundary detection",
+    "Computational imaging",
+    "Depth estimation"
+   ],
+   "field": "计算成像与深度估计",
+   "innovations": [
+    "提出Blurry-Edges参数化图像块表示，同时显式建模颜色、边界位置和边界平滑度",
+    "推导基于边界平滑度差异的闭式DfD深度方程，实现物理可解释的深度计算",
+    "设计两阶段CNN+Transformer架构，支持比现有DfD方法高约4倍的噪声水平"
+   ],
+   "benchmarks": [
+    "Synthetic testing set (200 scenes with realistic textures)",
+    "Real-world low-light image pairs captured with deformable lens prototype"
+   ]
+  }
+ }
 }

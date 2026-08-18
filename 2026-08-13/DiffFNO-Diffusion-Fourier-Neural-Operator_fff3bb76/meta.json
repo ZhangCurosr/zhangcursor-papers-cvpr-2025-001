@@ -4,5 +4,34 @@
  "title": "DiffFNO-Diffusion-Fourier-Neural-Operator",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 06:57:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b96b411d-4131-41a9-b78f-d4fe9b4ef413.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b96b411d-4131-41a9-b78f-d4fe9b4ef413.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:00:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "超分辨率",
+    "傅里叶神经算子",
+    "扩散模型",
+    "任意尺度",
+    "神经算子",
+    "频域方法",
+    "ODE求解器"
+   ],
+   "field": "图像超分辨率",
+   "innovations": [
+    "Weighted FNO with Mode Rebalancing for high-frequency reconstruction",
+    "Gated Fusion Mechanism for adaptive global-local feature integration",
+    "Adaptive Time-Step ODE solver reducing 1000 steps to 30"
+   ],
+   "benchmarks": [
+    "DIV2K",
+    "Set5",
+    "BSD100",
+    "Urban100",
+    "Set14"
+   ]
+  }
+ }
 }

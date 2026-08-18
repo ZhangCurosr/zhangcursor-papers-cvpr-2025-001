@@ -4,5 +4,28 @@
  "title": "CALICO-Part-Focused-Semantic-Co-Segmentation-with-Large-Visi",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:09:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fe8b63b4-38fc-4222-ad0c-877c39217721.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fe8b63b4-38fc-4222-ad0c-877c39217721.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:57:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "co-segmentation",
+    "part segmentation",
+    "vision-language model",
+    "multi-image reasoning",
+    "DINOv2",
+    "parameter-efficient tuning"
+   ],
+   "field": "多模态视觉分割",
+   "innovations": [
+    "提出 part-focused semantic co-segmentation 新任务",
+    "设计 CEM+CAM 模块实现多图像部件级语义对应学习，仅训练 0.3% 参数"
+   ],
+   "benchmarks": [
+    "MIXEDPARTS"
+   ]
+  }
+ }
 }

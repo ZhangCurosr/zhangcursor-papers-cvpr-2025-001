@@ -4,5 +4,35 @@
  "title": "Binarized-Mamba-Transformer-for-Lightweight-Quad-Bayer-Hybri",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:57:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/387ebdc3-684b-4b11-b848-6c1d64e71de9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/387ebdc3-684b-4b11-b848-6c1d64e71de9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:55:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "去马赛克",
+    "二值神经网络",
+    "Mamba",
+    "HybridEVS",
+    "Quad Bayer",
+    "轻量级视觉",
+    "边缘部署"
+   ],
+   "field": "计算摄影与边缘AI",
+   "innovations": [
+    "首次提出二值化Mamba（Bi-Mamba），对投影层二值化而保留Selective Scan全精度",
+    "将全局视觉嵌入融入控制矩阵B以增强长程依赖建模",
+    "首个面向Quad Bayer HybridEVS去马赛克的二值化网络框架"
+   ],
+   "benchmarks": [
+    "MIPI Workshop 2024",
+    "Kodak",
+    "BSD100",
+    "Urban100",
+    "REDS",
+    "Vid4"
+   ]
+  }
+ }
 }

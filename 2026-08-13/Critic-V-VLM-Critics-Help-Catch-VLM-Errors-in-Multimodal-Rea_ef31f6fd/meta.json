@@ -4,5 +4,37 @@
  "title": "Critic-V-VLM-Critics-Help-Catch-VLM-Errors-in-Multimodal-Rea",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 06:57:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3723ec52-84a5-4588-8b5b-bfb5c27ccd52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3723ec52-84a5-4588-8b5b-bfb5c27ccd52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:58:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Multimodal Reasoning",
+    "Critic Model",
+    "Direct Preference Optimization",
+    "Error Correction",
+    "Reinforcement Learning from Human Feedback",
+    "Hallucination Mitigation"
+   ],
+   "field": "多模态大模型推理与对齐",
+   "innovations": [
+    "提出 Reasoner-Critic 解耦框架，通过外部 Critic 提供自然语言反馈迭代改进 VLM 推理",
+    "设计 VEST+RBR 数据构建管线，生成高质量 critique 偏好数据用于 DPO 训练",
+    "将 TextGrad 与 Critic 反馈结合，实现基于文本提示的策略在线优化"
+   ],
+   "benchmarks": [
+    "RealWorldQA",
+    "MMStar",
+    "MMBench",
+    "SEEDBench",
+    "ScienceQA",
+    "MMT-Bench",
+    "MathVista",
+    "MathVerse"
+   ]
+  }
+ }
 }

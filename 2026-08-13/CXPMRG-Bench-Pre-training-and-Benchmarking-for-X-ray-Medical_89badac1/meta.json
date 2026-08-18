@@ -4,5 +4,30 @@
  "title": "CXPMRG-Bench-Pre-training-and-Benchmarking-for-X-ray-Medical",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 06:58:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/945186f3-ee72-4b8e-90f8-467ee7b5e320.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/945186f3-ee72-4b8e-90f8-467ee7b5e320.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:57:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学报告生成",
+    "X光图像分析",
+    "Mamba",
+    "多阶段预训练",
+    "对比学习",
+    "CheXpert Plus"
+   ],
+   "field": "医学视觉语言模型",
+   "innovations": [
+    "三阶段预训练策略（ARG+CTL+SFT）结合Mamba视觉骨干用于X光报告生成",
+    "首个CheXpert Plus大规模统一基准评测，覆盖19个MRG模型+14个LLM+2个VLM"
+   ],
+   "benchmarks": [
+    "CheXpert Plus",
+    "MIMIC-CXR",
+    "IU X-ray"
+   ]
+  }
+ }
 }

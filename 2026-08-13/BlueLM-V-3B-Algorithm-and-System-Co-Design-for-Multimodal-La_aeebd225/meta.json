@@ -4,5 +4,39 @@
  "title": "BlueLM-V-3B-Algorithm-and-System-Co-Design-for-Multimodal-La",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:00:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c74fb0e2-3bc2-486b-8e56-19e2fe901554.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c74fb0e2-3bc2-486b-8e56-19e2fe901554.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:56:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "移动端部署",
+    "算法-系统协同设计",
+    "动态分辨率",
+    "NPU加速",
+    "模型量化"
+   ],
+   "field": "多模态大语言模型高效部署",
+   "innovations": [
+    "松驰宽高比匹配方法缓解动态分辨率过度放大问题",
+    "NPU硬件感知的批处理图像编码与流水线并行优化",
+    "Token下采样与分块计算策略适配移动端NPU推理"
+   ],
+   "benchmarks": [
+    "OpenCompass",
+    "MMBench",
+    "MMStar",
+    "MMMU",
+    "MathVista",
+    "OCRBench",
+    "TextVQA",
+    "DocVQA",
+    "MTVQA",
+    "VQAv2",
+    "ChartQA"
+   ]
+  }
+ }
 }

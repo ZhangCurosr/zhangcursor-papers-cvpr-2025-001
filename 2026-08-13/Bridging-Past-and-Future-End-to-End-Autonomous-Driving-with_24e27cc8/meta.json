@@ -4,5 +4,30 @@
  "title": "Bridging-Past-and-Future-End-to-End-Autonomous-Driving-with",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 06:58:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b038ac6c-4996-4c20-abe7-59f61d676285.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b038ac6c-4996-4c20-abe7-59f61d676285.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:57:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "end-to-end autonomous driving",
+    "historical prediction",
+    "multi-step query",
+    "motion planning",
+    "closed-loop evaluation",
+    "nuScenes"
+   ],
+   "field": "端到端自动驾驶",
+   "innovations": [
+    "将运动与规划查询重构为多步张量以支持步骤级历史交互",
+    "提出历史 Mot2Det 融合与步级 Mot2Plan 交互模块分层利用历史信息",
+    "在开环与闭环（NeuroNCAP）评测上同时取得 SOTA"
+   ],
+   "benchmarks": [
+    "nuScenes open-loop",
+    "NeuroNCAP closed-loop"
+   ]
+  }
+ }
 }

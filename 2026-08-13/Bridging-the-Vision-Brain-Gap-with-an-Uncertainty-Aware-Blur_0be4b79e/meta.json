@@ -4,5 +4,30 @@
  "title": "Bridging-the-Vision-Brain-Gap-with-an-Uncertainty-Aware-Blur",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:00:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5575c9a-8056-421a-b61e-f0c282c63024.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5575c9a-8056-421a-b61e-f0c282c63024.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:57:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经解码",
+    "脑-视觉对比学习",
+    "不确定性量化",
+    "模糊先验",
+    "EEG",
+    "MEG"
+   ],
+   "field": "视觉神经解码",
+   "innovations": [
+    "提出System GAP与Random GAP概念框架系统分析脑-视觉信号失配来源",
+    "设计生物启发的高斯模糊先验模拟人眼中央凹特性",
+    "基于相似度置信区间的动态不确定性感知模糊策略"
+   ],
+   "benchmarks": [
+    "THINGS-EEG",
+    "THINGS-MEG"
+   ]
+  }
+ }
 }

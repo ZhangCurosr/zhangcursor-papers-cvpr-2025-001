@@ -4,5 +4,31 @@
  "title": "A-Theory-of-Learning-Unified-Model-via-Knowledge-Integration",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e37389b1-c670-4fc5-936d-81421b451b6b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e37389b1-c670-4fc5-936d-81421b451b6b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:54:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多源域自适应",
+    "开放集域自适应",
+    "半监督域自适应",
+    "源自由域自适应",
+    "联合误差",
+    "PU学习",
+    "注意力特征生成"
+   ],
+   "field": "开放集多源域自适应",
+   "innovations": [
+    "提出多源半监督开放集域自适应（MSODA）问题设定并给出联合误差泛化界理论",
+    "设计基于注意力的特征生成模块（AFG）实现源自由跨架构知识迁移",
+    "引入渐进未知拒绝（PUR）机制提升开放集源自由场景的未知类识别"
+   ],
+   "benchmarks": [
+    "Office-Home",
+    "DomainNet"
+   ]
+  }
+ }
 }

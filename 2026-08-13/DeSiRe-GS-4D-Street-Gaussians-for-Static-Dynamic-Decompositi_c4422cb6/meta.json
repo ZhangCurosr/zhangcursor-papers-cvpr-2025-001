@@ -4,5 +4,30 @@
  "title": "DeSiRe-GS-4D-Street-Gaussians-for-Static-Dynamic-Decompositi",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:57:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/802cba93-6da6-4e76-a8f2-b2730db61cf0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/802cba93-6da6-4e76-a8f2-b2730db61cf0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:01:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "静态-动态分解",
+    "自监督",
+    "城市驾驶场景",
+    "表面重建",
+    "时序一致性"
+   ],
+   "field": "自动驾驶场景重建",
+   "innovations": [
+    "基于外观差异的自监督运动掩码提取，无需3D标注",
+    "2D运动先验可微蒸馏至3D Gaussian空间实现静态-动态分解",
+    "法向与尺度联合推导及时序跨视角一致性正则化提升表面重建质量"
+   ],
+   "benchmarks": [
+    "Waymo Open Dataset",
+    "KITTI Dataset"
+   ]
+  }
+ }
 }

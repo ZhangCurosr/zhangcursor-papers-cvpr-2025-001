@@ -4,5 +4,36 @@
  "title": "Beyond-Clean-Training-Data-A-Versatile-and-Model-Agnostic-Fr",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 06:57:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/454727e1-fb53-4774-b773-45a19335133d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/454727e1-fb53-4774-b773-45a19335133d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:55:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "out-of-distribution detection",
+    "contaminated training data",
+    "model-agnostic framework",
+    "iterative training",
+    "sample weighting",
+    "negative samples"
+   ],
+   "field": "分布外检测与数据污染鲁棒学习",
+   "innovations": [
+    "提出可即插即用的模型无关迭代框架，适配使用与不使用负样本的 OOD 方法",
+    "设计带过渡机制的样本权重函数，缓解早期不可靠 OOD 评分的负面影响",
+    "首次实现对污染训练数据中未知 OOD 比例的无监督准确估计"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-1k",
+    "iNaturalist",
+    "OpenImage-O",
+    "CelebA",
+    "Tiny-ImageNet",
+    "Mini-ImageNet"
+   ]
+  }
+ }
 }

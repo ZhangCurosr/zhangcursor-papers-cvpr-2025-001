@@ -4,5 +4,29 @@
  "title": "De-sup-2-sup-Gaze-Deformable-and-Decoupled-Representation-Le",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:58:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2ab3462b-8352-440b-808f-e1e8b21bf2c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2ab3462b-8352-440b-808f-e1e8b21bf2c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:00:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaze Estimation",
+    "Deformable Attention",
+    "Spatial Decoupling",
+    "Model-Aware",
+    "TEyeD"
+   ],
+   "field": "3D视觉感知/眼动估计",
+   "innovations": [
+    "可变形稀疏注意力DSA：基于3D模型投影边缘点的稀疏采样，抗噪声降计算量",
+    "空间解耦网络SDNet：双分支解耦不变与可变眼球特征",
+    "可微分3D眼球模型：端到端几何约束融合"
+   ],
+   "benchmarks": [
+    "TEyeD-subset_A",
+    "TEyeD-subset_B (cross-subject)"
+   ]
+  }
+ }
 }

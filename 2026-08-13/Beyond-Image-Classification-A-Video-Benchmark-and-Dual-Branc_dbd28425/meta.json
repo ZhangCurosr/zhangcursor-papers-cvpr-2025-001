@@ -4,5 +4,30 @@
  "title": "Beyond-Image-Classification-A-Video-Benchmark-and-Dual-Branc",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 06:58:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2df064ff-5c67-4d35-b429-26448288162a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2df064ff-5c67-4d35-b429-26448288162a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:55:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CZSL",
+    "Compositional Zero-Shot Learning",
+    "Video Benchmark",
+    "Dual-Branch",
+    "Copula Loss"
+   ],
+   "field": "组合零样本学习",
+   "innovations": [
+    "提出C-EgoExo视频基准扩展CZSL评估到动作-对象任务",
+    "双分支混合判别框架DHD模拟人类条件优先与对象优先认知模式",
+    "Copula正交解码损失缓解条件方差与分支冗余"
+   ],
+   "benchmarks": [
+    "C-EgoExo",
+    "UT-Zappos",
+    "CGQA"
+   ]
+  }
+ }
 }
