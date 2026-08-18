@@ -4,5 +4,29 @@
  "title": "Taming-Teacher-Forcing-for-Masked-Autoregressive-Video-Gener",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 14:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3446d444-0f54-44a2-bc51-1c6356eaed92.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3446d444-0f54-44a2-bc51-1c6356eaed92.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:45:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自回归视频生成",
+    "教师强制",
+    "掩码建模",
+    "帧级生成",
+    "暴露偏差缓解"
+   ],
+   "field": "视频生成",
+   "innovations": [
+    "提出Complete Teacher Forcing(CTF)消除训练-推理差距，FVD提升23%",
+    "动态间隔训练+动态噪声注入缓解自回归暴露偏差",
+    "帧级+patch级混合架构实现KV Cache加速的长视频生成"
+   ],
+   "benchmarks": [
+    "Kinetics-600视频预测(FVD=11.5 AR SOTA)",
+    "UCF-101无条件视频生成(FVD=297.8 with Cosmos VAE)"
+   ]
+  }
+ }
 }

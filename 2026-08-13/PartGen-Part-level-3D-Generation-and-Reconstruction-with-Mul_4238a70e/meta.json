@@ -4,5 +4,32 @@
  "title": "PartGen-Part-level-3D-Generation-and-Reconstruction-with-Mul",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 14:56:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/195f6906-2ae2-4adf-aa02-1f1ace9f8b63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/195f6906-2ae2-4adf-aa02-1f1ace9f8b63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:37:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "part-level 3D generation",
+    "multi-view diffusion",
+    "3D part segmentation",
+    "contextual completion",
+    "structured 3D asset",
+    "3D reconstruction"
+   ],
+   "field": "3D 生成与结构化重建",
+   "innovations": [
+    "将 3D 部件分割建模为多视图颜色编码扩散采样，利用随机性隐式处理实例命名歧义",
+    "提出上下文感知部件补全网络，以 mask 化视图 + 全局视图 + mask 三元组为条件生成完整部件视图",
+    "统一处理文本/图像/真实 3D 扫描三种输入模态，并在不微调 RM 的前提下产出可编辑的结构化 3D 资产"
+   ],
+   "benchmarks": [
+    "mAP@50 (自动分割, 45.2 vs SAM2* 37.4)",
+    "CLIP similarity (补全后重建, 0.936)",
+    "PSNR (补全后重建, 17.16)",
+    "mAP@50 (seeded 分割, 53.7)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Synchronized-Video-to-Audio-Generation-via-Mel-Quantization",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 14:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a7de017-5113-4e7a-98f0-8571196d27a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a7de017-5113-4e7a-98f0-8571196d27a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:43:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video-to-audio",
+    "mel spectrogram",
+    "quantization",
+    "ControlNet",
+    "diffusion model",
+    "textual inversion",
+    "cross-modal generation"
+   ],
+   "field": "视频到音频生成",
+   "innovations": [
+    "将 mel 频谱分解为语义/能量/标准差三分量并分别量化/保留连续形式，平衡可预测性与完整性",
+    "语义向量量化 SVQ 结合频域下采样与因子化分类，将 codebook 从指数级压缩至 6561 并拆分为双 81 分类",
+    "引入 Textual Inversion 伪词 token 机制解耦补偿全局语义偏差，与 ControlNet 独立训练"
+   ],
+   "benchmarks": [
+    "VGGSound",
+    "AvSync15"
+   ]
+  }
+ }
 }

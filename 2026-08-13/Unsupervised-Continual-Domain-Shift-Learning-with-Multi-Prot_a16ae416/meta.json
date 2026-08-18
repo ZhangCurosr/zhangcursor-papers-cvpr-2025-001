@@ -4,5 +4,31 @@
  "title": "Unsupervised-Continual-Domain-Shift-Learning-with-Multi-Prot",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-13 14:55:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b04b6e02-10e1-419f-af25-6775290ebb2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b04b6e02-10e1-419f-af25-6775290ebb2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:56:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续域偏移学习",
+    "多原型建模",
+    "域泛化",
+    "域适配",
+    "图传播",
+    "无监督学习",
+    "灾难性遗忘"
+   ],
+   "field": "持续域偏移学习",
+   "innovations": [
+    "建立UCDSL误差界证明多原型方法优于单分类器方法",
+    "提出无参数双层图增强器BiGE从领域级和类别级增强特征表示"
+   ],
+   "benchmarks": [
+    "PACS",
+    "Digits-5",
+    "DomainNet"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "Seurat-From-Moving-Points-to-Depth",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:54:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c85ffc39-c5cc-4d5c-88dc-8089ad8c367a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c85ffc39-c5cc-4d5c-88dc-8089ad8c367a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:41:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "monocular depth estimation",
+    "point tracking",
+    "temporal consistency",
+    "trajectory-based 3D",
+    "zero-shot generalization"
+   ],
+   "field": "单目视频深度估计",
+   "innovations": [
+    "从2D点轨迹推断相对深度比的双分支Transformer架构",
+    "滑动窗口对数比深度损失实现零样本时序平滑深度估计",
+    "支撑-查询轨迹解耦设计避免分布偏差"
+   ],
+   "benchmarks": [
+    "TAPVid-3D"
+   ]
+  }
+ }
 }

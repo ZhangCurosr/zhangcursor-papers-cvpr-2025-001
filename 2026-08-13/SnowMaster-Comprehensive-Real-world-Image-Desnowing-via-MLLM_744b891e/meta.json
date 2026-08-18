@@ -4,5 +4,30 @@
  "title": "SnowMaster-Comprehensive-Real-world-Image-Desnowing-via-MLLM",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/143fa04d-7054-4f35-9e28-3c22f7017450.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/143fa04d-7054-4f35-9e28-3c22f7017450.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:41:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "single image desnowing",
+    "multimodal large language model",
+    "preference optimization",
+    "semi-supervised learning",
+    "image quality assessment",
+    "real-world generalization"
+   ],
+   "field": "图像去雪与退化修复",
+   "innovations": [
+    "提出MMPO将多模型反馈整合至DPO框架以增强MLLM降雪感知能力",
+    "构建RealSnow10K大规模真实雪景数据集（>10K张）",
+    "设计四维度评估框架结合半监督伪标签更新机制提升真实场景泛化性"
+   ],
+   "benchmarks": [
+    "RealSnow10K",
+    "Snow100K-realistic"
+   ]
+  }
+ }
 }

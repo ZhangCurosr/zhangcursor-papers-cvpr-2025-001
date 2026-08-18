@@ -4,5 +4,30 @@
  "title": "Two-is-Better-than-One-Efficient-Ensemble-Defense-for-Robust",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 14:56:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5099fd8e-b32e-40c3-836c-50b8a3403bfa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5099fd8e-b32e-40c3-836c-50b8a3403bfa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:49:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial pruning",
+    "ensemble defense",
+    "model compression",
+    "robust diversity",
+    "dynamic inference",
+    "adversarial robustness"
+   ],
+   "field": "对抗鲁棒性与模型压缩",
+   "innovations": [
+    "从单模型多评分剪枝构建轻量级集成防御（EED框架）",
+    "提出基于防御失败概率联合分布的鲁棒多样性RD度量指导集成选择",
+    "设计误分类正则与紧凑性正则联合约束的端到端训练损失"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "SVHN"
+   ]
+  }
+ }
 }

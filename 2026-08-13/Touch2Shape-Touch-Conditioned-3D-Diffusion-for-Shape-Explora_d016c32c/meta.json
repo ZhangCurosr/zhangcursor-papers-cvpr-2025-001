@@ -4,5 +4,29 @@
  "title": "Touch2Shape-Touch-Conditioned-3D-Diffusion-for-Shape-Explora",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 14:55:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/43def553-5fcf-4916-807b-ec1d497fb715.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/43def553-5fcf-4916-807b-ec1d497fb715.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:47:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D reconstruction",
+    "touch-based sensing",
+    "diffusion model",
+    "shape exploration",
+    "multimodal fusion",
+    "reinforcement learning"
+   ],
+   "field": "触觉引导的3D形状重建与探索",
+   "innovations": [
+    "提出触觉条件3D扩散模型，在低维潜空间引导触觉探索策略",
+    "设计对比触觉编码器与Touch Shape Fusion模块，增强多模态对齐与局部细节重建"
+   ],
+   "benchmarks": [
+    "ABC dataset",
+    "ShapeNet dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "SGC-Net-Stratified-Granular-Comparison-Network-for-Open-Voca",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/79087768-da84-45d2-8a48-02908313cba8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/79087768-da84-45d2-8a48-02908313cba8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:40:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary HOI detection",
+    "CLIP",
+    "multimodal learning",
+    "fine-grained recognition",
+    "hierarchical classification"
+   ],
+   "field": "开放词汇人体交互检测",
+   "innovations": [
+    "提出GSA模块通过高斯分布加权融合CLIP多尺度视觉特征",
+    "设计HGC模块利用LLM生成判别性描述细粒化分类边界",
+    "引入DGW机制和交互分数校准提升检测性能"
+   ],
+   "benchmarks": [
+    "HICO-DET",
+    "V-COCO"
+   ]
+  }
+ }
 }

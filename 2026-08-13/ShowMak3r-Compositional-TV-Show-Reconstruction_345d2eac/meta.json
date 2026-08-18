@@ -4,5 +4,29 @@
  "title": "ShowMak3r-Compositional-TV-Show-Reconstruction",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-13 14:55:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/71ed92fa-458e-4a28-ad4c-07ac713006d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/71ed92fa-458e-4a28-ad4c-07ac713006d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:42:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dynamic radiance field",
+    "3D Gaussian Splatting",
+    "TV show reconstruction",
+    "multi-actor tracking",
+    "facial expression refinement",
+    "depth-guided rendering"
+   ],
+   "field": "动态场景重建与数字人",
+   "innovations": [
+    "基于对齐深度先验的 3DLocator 实现无脚触地假设的演员舞台定位",
+    "跨镜头 ShotMatcher 结合插值/外推实现跳跃剪辑下的人体连续跟踪",
+    "隐式面部分辨残差网络在保持高斯几何稳定性的同时拟合细微表情"
+   ],
+   "benchmarks": [
+    "Sitcoms3D"
+   ]
+  }
+ }
 }

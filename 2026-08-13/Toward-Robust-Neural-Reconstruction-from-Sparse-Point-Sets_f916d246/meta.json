@@ -4,5 +4,10 @@
  "title": "Toward-Robust-Neural-Reconstruction-from-Sparse-Point-Sets",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 14:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1582a13a-b811-4177-9b9f-385c0679efcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1582a13a-b811-4177-9b9f-385c0679efcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:48:25",
+  "chunks": 1
+ }
 }

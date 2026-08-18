@@ -4,5 +4,31 @@
  "title": "Uni4D-Unifying-Visual-Foundation-Models-for-4D-Modeling-from",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/148670ad-2728-40b0-b3fe-d78952004754.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/148670ad-2728-40b0-b3fe-d78952004754.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:50:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D重建",
+    "视觉基础模型",
+    "动态场景理解",
+    "结构从运动",
+    "免训练方法"
+   ],
+   "field": "动态3D视觉",
+   "innovations": [
+    "免训练统一框架整合多个预训练视觉基础模型进行4D建模",
+    "三阶段分治优化策略联合估计相机位姿、静态/动态几何和密集3D运动"
+   ],
+   "benchmarks": [
+    "Sintel",
+    "TUM-dynamics",
+    "Bonn",
+    "KITTI",
+    "DAVIS"
+   ]
+  }
+ }
 }

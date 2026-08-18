@@ -4,5 +4,33 @@
  "title": "Towards-Source-Free-Machine-Unlearning",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b7fa2c9a-495d-48fa-96bf-6d4fb0538626.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b7fa2c9a-495d-48fa-96bf-6d4fb0538626.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:49:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器遗忘",
+    "源自由学习",
+    "零样本遗忘",
+    "Hessian估计",
+    "参数不可区分性",
+    "混合线性网络",
+    "NTK"
+   ],
+   "field": "机器学习隐私与合规",
+   "innovations": [
+    "提出首个实例级零样本线性分类器遗忘方法，无需访问剩余训练数据",
+    "设计基于遗忘数据扰动逼近剩余数据Hessian的SDP估计机制，并提供严格误差上界",
+    "将方法扩展至NTK混合线性框架，在ResNet-18深度网络上验证有效性"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "Stanford Dogs",
+    "CalTech-256"
+   ]
+  }
+ }
 }

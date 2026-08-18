@@ -4,5 +4,31 @@
  "title": "Tiled-Diffusion",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 14:55:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e819fa25-210f-462b-853e-f3b1b63b0f68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e819fa25-210f-462b-853e-f3b1b63b0f68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:46:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tiled diffusion",
+    "texture synthesis",
+    "seamless tiling",
+    "image generation",
+    "latent diffusion",
+    "many-to-many tiling"
+   ],
+   "field": "图像生成与平铺合成",
+   "innovations": [
+    "提出在扩散潜空间中施加平铺约束与相似度约束以实现任意复杂平铺场景的无缝生成",
+    "设计通用平铺评分TS与多约束Round-Robin调度机制",
+    "统一支持自拼接、一对一及多对多平铺并扩展到360°合成"
+   ],
+   "benchmarks": [
+    "LAION-400M",
+    "STI",
+    "AT"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "iSegMan-Interactive-Segment-and-Manipulate-3D-Gaussians",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 14:56:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6a49316e-ba79-420e-95b4-8d4c92cc9cd2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6a49316e-ba79-420e-95b4-8d4c92cc9cd2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 10:00:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "Interactive Segmentation",
+    "Scene Manipulation",
+    "Epipolar Geometry",
+    "SAM",
+    "Gaussian Voting"
+   ],
+   "field": "3D 场景理解与编辑",
+   "innovations": [
+    "提出极线约束引导的跨视角交互传播（EIP），将2D点击高效鲁棒地传播到多视角",
+    "设计基于可见性Alpha Blending的免训练Gaussian投票机制（VGV），实现无场景特定训练的3D区域提取"
+   ],
+   "benchmarks": [
+    "SPIn-NeRF",
+    "NVOS",
+    "Mip-NeRF 360"
+   ]
+  }
+ }
 }

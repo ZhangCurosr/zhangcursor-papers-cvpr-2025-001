@@ -4,5 +4,33 @@
  "title": "SymDPO-Boosting-In-Context-Learning-of-Large-Multimodal-Mode",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-13 14:55:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0ada061-79d4-4489-9653-640d4023cbba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0ada061-79d4-4489-9653-640d4023cbba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:44:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Multimodal Large Models",
+    "Direct Preference Optimization",
+    "Visual Context",
+    "Symbol Tuning",
+    "Vision-Language Models"
+   ],
+   "field": "多模态大模型对齐",
+   "innovations": [
+    "提出SymDPO符号偏好优化方法，通过符号替换强制模型依赖视觉信息",
+    "设计五种SymDPO数据配置构建管线，增强多模态上下文对齐",
+    "揭示SymDPO与General DPO混合比例最优约为70%"
+   ],
+   "benchmarks": [
+    "COCO Caption",
+    "Flickr-30K",
+    "VQAv2",
+    "OK-VQA",
+    "TextVQA"
+   ]
+  }
+ }
 }

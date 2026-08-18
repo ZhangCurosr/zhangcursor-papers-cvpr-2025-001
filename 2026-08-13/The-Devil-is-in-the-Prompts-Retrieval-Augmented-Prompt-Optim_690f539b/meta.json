@@ -4,5 +4,31 @@
  "title": "The-Devil-is-in-the-Prompts-Retrieval-Augmented-Prompt-Optim",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-13 14:54:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e5a5f11-a873-4890-9189-125454e04868.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e5a5f11-a873-4890-9189-125454e04868.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:46:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Video",
+    "Prompt Optimization",
+    "Retrieval-Augmented Generation",
+    "Large Language Model",
+    "Video Generation",
+    "Prompt Engineering"
+   ],
+   "field": "Text-to-Video 生成",
+   "innovations": [
+    "关系图检索增强的双分支提示词优化框架，首次将训练数据结构化知识图谱与LLM迭代合并结合用于T2V提示词优化",
+    "句子重构模块通过指令微调LLaMA 3.1使优化提示词长度/格式分布与训练数据对齐",
+    "判别器LLM双路择优机制缓解LLM生成不准确和歧义问题"
+   ],
+   "benchmarks": [
+    "VBench",
+    "EvalCrafter",
+    "T2V-CompBench"
+   ]
+  }
+ }
 }

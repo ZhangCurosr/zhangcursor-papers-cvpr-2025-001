@@ -4,5 +4,34 @@
  "title": "StyleMaster-Stylize-Your-Video-with-Artistic-Generation-and",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-13 14:55:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/67783e49-bdd5-4f92-90ba-0108a64de5b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/67783e49-bdd5-4f92-90ba-0108a64de5b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:44:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频风格迁移",
+    "艺术生成",
+    "风格提取",
+    "motion adapter",
+    "ControlNet",
+    "model illusion",
+    "对比学习"
+   ],
+   "field": "视频生成与风格化",
+   "innovations": [
+    "利用model illusion自动生成绝对风格一致的配对数据集",
+    "基于文本-patch相似度过滤的内容-纹理解耦风格提取",
+    "负系数motion adapter隐式增强视频风格化程度"
+   ],
+   "benchmarks": [
+    "CSD-Score",
+    "ArtFID",
+    "UMT-Score",
+    "CLIP-Text",
+    "VBench (MotionSmooth, DynamicQuality)"
+   ]
+  }
+ }
 }

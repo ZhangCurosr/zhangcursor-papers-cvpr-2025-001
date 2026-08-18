@@ -4,5 +4,10 @@
  "title": "UVGS-Reimagining-Unstructured-3D-Gaussian-Splatting-using-UV",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-13 14:56:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8a46106a-4478-4229-8f08-b214decee05e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8a46106a-4478-4229-8f08-b214decee05e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:57:00",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "TFCustom-Customized-Image-Generation-with-Time-Aware-Frequen",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 14:56:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f2bd7058-8496-4b15-9286-30793d4b2070.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f2bd7058-8496-4b15-9286-30793d4b2070.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:45:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "subject-driven generation",
+    "ReferenceNet",
+    "time-aware frequency",
+    "customized image generation",
+    "fine-tuning-free",
+    "DINO reward loss"
+   ],
+   "field": "个性化图像生成",
+   "innovations": [
+    "提出同步ReferenceNet实现参考特征与时序去噪的动态对齐",
+    "设计TA-FFR模块通过可学习频域滤波与时嵌入自适应注入高低频特征",
+    "引入DINOv2奖励损失优化多对象生成中的身份一致性"
+   ],
+   "benchmarks": [
+    "DreamBench",
+    "MS-Bench"
+   ]
+  }
+ }
 }

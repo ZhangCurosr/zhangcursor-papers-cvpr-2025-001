@@ -4,5 +4,30 @@
  "title": "Lost-in-Translation-Found-in-Context-Sign-Language-Translati",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 14:56:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/376613b0-6a61-4f18-b0c0-1e7710b6bb00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/376613b0-6a61-4f18-b0c0-1e7710b6bb00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:39:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手语翻译",
+    "大语言模型微调",
+    "上下文感知",
+    "BOBSL",
+    "多模态融合",
+    "LoRA"
+   ],
+   "field": "手语理解与翻译",
+   "innovations": [
+    "提出结合背景描述、前句翻译和伪gloss的多线索LLM手语翻译框架",
+    "设计完全自动化的上下文利用方案，无需oracle信息",
+    "引入LLM-based评估指标并系统消融各线索贡献"
+   ],
+   "benchmarks": [
+    "BOBSL SENT-TEST",
+    "How2Sign"
+   ]
+  }
+ }
 }

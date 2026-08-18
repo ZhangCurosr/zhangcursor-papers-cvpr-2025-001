@@ -4,5 +4,32 @@
  "title": "The-Language-of-Motion-Unifying-Verbal-and-Non-verbal-Langua",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f9871802-70cd-4828-b93e-296b69755130.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f9871802-70cd-4828-b93e-296b69755130.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:46:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态语言模型",
+    "3D人体运动生成",
+    "共speech手势",
+    "运动分词",
+    "指令微调",
+    "跨模态对齐"
+   ],
+   "field": "多模态人体运动理解与生成",
+   "innovations": [
+    "提出首个统一语音/文本/动作的多模态语言模型，实现言语与非言语运动的模式统一",
+    "设计空间-时间双通道预训练策略，在无语音-动作配对数据下习得跨模态语义对齐",
+    "解锁可编辑手势生成与运动→情感预测等新颖任务"
+   ],
+   "benchmarks": [
+    "BEATv2",
+    "HumanML3D",
+    "AMASS",
+    "Librispeech"
+   ]
+  }
+ }
 }

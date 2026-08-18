@@ -4,5 +4,30 @@
  "title": "UA-Pose-Uncertainty-Aware-6D-Object-Pose-Estimation-and-Onli",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d74d40f2-43f2-4de7-b246-cdac488f59f5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d74d40f2-43f2-4de7-b246-cdac488f59f5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:53:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "6D位姿估计",
+    "不确定性感知",
+    "在线对象补全",
+    "神经SDF",
+    "单图到3D生成"
+   ],
+   "field": "6D物体位姿估计",
+   "innovations": [
+    "不确定性感知的混合对象表示（纹理+几何+不确定性）",
+    "基于seen IoU的位姿置信度评估与过滤机制",
+    "不确定性感知采样驱动的在线对象补全策略"
+   ],
+   "benchmarks": [
+    "YCB-Video",
+    "YCBInEOAT",
+    "HO3D"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SALOVA-Segment-Augmented-Long-Video-Assistant-for-Targeted-R",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 14:56:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b8e55c38-247a-4113-928a-c36f893d869d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b8e55c38-247a-4113-928a-c36f893d869d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:39:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长视频理解",
+    "视频大模型",
+    "检索增强生成",
+    "多模态学习",
+    "Segment Retrieval"
+   ],
+   "field": "视频-语言大模型",
+   "innovations": [
+    "提出SceneWalk密集字幕长视频数据集，87.8K视频支持细粒度视频片段学习",
+    "设计Segment Retrieval Router实现基于查询的动态视频片段检索",
+    "FocusFast双路径机制同时捕捉局部细节与全局上下文"
+   ],
+   "benchmarks": [
+    "Video-MME",
+    "LongVideoBench",
+    "ActivityNetQA",
+    "VideoChatGPT",
+    "MVBench"
+   ]
+  }
+ }
 }

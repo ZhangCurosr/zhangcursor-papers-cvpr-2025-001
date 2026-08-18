@@ -4,5 +4,33 @@
  "title": "Self-Expansion-of-Pre-trained-Models-with-Mixture-of-Adapter",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26f54609-bf99-4702-869b-2d5a83b044d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26f54609-bf99-4702-869b-2d5a83b044d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:40:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "Pre-trained Models",
+    "Modularized Adaptation",
+    "Self-Expansion",
+    "Mixture of Adapters",
+    "Catastrophic Forgetting",
+    "Parameter-Efficient Fine-Tuning"
+   ],
+   "field": "持续学习/类增量学习",
+   "innovations": [
+    "提出基于表征描述符的模块化适配器，实现自适应分布偏移检测与按需自扩展",
+    "设计可展开加权路由器，以软混合方式组合多适配器输出，支持增量扩展而不遗忘",
+    "实现亚线性参数增长且无回放，在多个视觉 CL 基准上达到 SOTA"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "ImageNet-R",
+    "ImageNet-A",
+    "VTAB"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "SINR-Sparsity-Driven-Compressed-Implicit-Neural-Representati",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 14:56:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3f34b934-1266-4516-9a52-66ee7431a32d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3f34b934-1266-4516-9a52-66ee7431a32d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:39:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "隐式神经表示",
+    "压缩感知",
+    "稀疏编码",
+    "信号压缩",
+    "Neural Radiance Fields"
+   ],
+   "field": "隐式神经表示压缩",
+   "innovations": [
+    "利用INR权重的Gaussian分布通过压缩感知寻找稀疏码",
+    "基于CLT用随机种子生成感知矩阵免去传输开销",
+    "提出Tiny INR的矩阵展平策略提升小型网络压缩效率"
+   ],
+   "benchmarks": [
+    "KODAK图像压缩",
+    "Stanford shape占据场重建",
+    "NeRF渲染"
+   ]
+  }
+ }
 }

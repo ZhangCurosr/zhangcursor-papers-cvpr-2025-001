@@ -4,5 +4,32 @@
  "title": "LookingGlass-Generative-Anamorphoses-via-Laplacian-Pyramid-W",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-13 14:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75326573-0020-424e-a405-46955deea8cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75326573-0020-424e-a405-46955deea8cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:38:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "生成式变形",
+    "光学幻觉",
+    "拉普拉斯金字塔",
+    "潜在扩散模型",
+    "多视图同步",
+    "非线性扭曲"
+   ],
+   "field": "生成式视觉幻觉",
+   "innovations": [
+    "将Visual Anagrams扩展到潜在空间并通过VAE残差修正消除伪影",
+    "提出拉普拉斯金字塔扭曲以在任意几何变换中保持高频细节",
+    "时间旅行与单视图优先级策略平衡歧义性与高保真度"
+   ],
+   "benchmarks": [
+    "CLIP Alignment Score",
+    "Concealment Score",
+    "FID",
+    "KID"
+   ]
+  }
+ }
 }

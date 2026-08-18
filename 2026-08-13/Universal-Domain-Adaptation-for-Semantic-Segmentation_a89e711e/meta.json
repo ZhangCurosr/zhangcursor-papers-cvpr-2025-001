@@ -4,5 +4,30 @@
  "title": "Universal-Domain-Adaptation-for-Semantic-Segmentation",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 14:55:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/15a5c6a9-8707-442f-847c-37e55987505d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/15a5c6a9-8707-442f-847c-37e55987505d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:51:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Universal Domain Adaptation",
+    "Semantic Segmentation",
+    "Domain Adaptation",
+    "Open Set Recognition",
+    "Prototype Learning",
+    "Cross-Domain"
+   ],
+   "field": "语义分割与域适应",
+   "innovations": [
+    "首次提出语义分割通用域适应（UniDA-SS）任务并构建OPDA-SS基准",
+    "域特定双原型+ETF固定空间的像素级公共/私有类区分机制（DSPD）",
+    "基于目标伪标签分布反哺源图像匹配的类别对齐采样策略（TIM）"
+   ],
+   "benchmarks": [
+    "Pascal-Context -> Cityscapes",
+    "GTA5 -> IDD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "SketchFusion-Learning-Universal-Sketch-Features-through",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 14:56:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d34ffb87-3f11-44f9-b765-50b485058a8f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d34ffb87-3f11-44f9-b765-50b485058a8f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:43:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "草图理解",
+    "稳定扩散",
+    "CLIP",
+    "基础模型融合",
+    "特征提取",
+    "零样本检索",
+    "频域分析"
+   ],
+   "field": "草图视觉理解",
+   "innovations": [
+    "揭示SD在草图特征提取中的频域高频偏向并系统量化",
+    "提出CLIP视觉特征向SD UNet去噪过程的轻量1D卷积注入机制",
+    "设计动态特征聚合网络实现跨任务自适应通用草图表示"
+   ],
+   "benchmarks": [
+    "Sketchy",
+    "Tu-Berlin",
+    "Quick Draw!",
+    "PSC6K"
+   ]
+  }
+ }
 }

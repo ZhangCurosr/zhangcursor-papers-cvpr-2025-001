@@ -4,5 +4,29 @@
  "title": "TCFG-Tangential-Damping-Classifier-free-Guidance",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-13 14:56:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5e0ca320-1452-4244-badb-2cb9b8abdf6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5e0ca320-1452-4244-badb-2cb9b8abdf6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:45:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "classifier-free guidance",
+    "diffusion models",
+    "manifold hypothesis",
+    "SVD",
+    "tangential damping",
+    "image generation"
+   ],
+   "field": "生成模型采样优化",
+   "innovations": [
+    "通过SVD分解过滤无条件分数的切向分量，减少与条件分数的不对齐",
+    "提出TCFG方法，在保持计算开销几乎不变的情况下提升CFG生成质量"
+   ],
+   "benchmarks": [
+    "MS-COCO 30k",
+    "ImageNet 50k"
+   ]
+  }
+ }
 }

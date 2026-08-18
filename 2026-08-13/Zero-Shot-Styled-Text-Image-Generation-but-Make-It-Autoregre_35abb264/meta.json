@@ -4,5 +4,32 @@
  "title": "Zero-Shot-Styled-Text-Image-Generation-but-Make-It-Autoregre",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-13 14:56:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d93e966b-9131-40b7-98a6-882eb4f5e7a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d93e966b-9131-40b7-98a6-882eb4f5e7a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 09:56:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Handwritten Text Generation",
+    "Zero-shot Style Transfer",
+    "Autoregressive Image Generation",
+    "VAE Latent Diffusion",
+    "Document Analysis",
+    "Synthetic Pre-training"
+   ],
+   "field": "文档分析与合成图像生成",
+   "innovations": [
+    "首个自回归离线风格化文本图像生成模型，支持任意长度且自动终止",
+    "背景解耦 VAE 表征（单通道 + 极小 β KL + Writer-ID/HTR 辅助监督）使生成图像无背景伪影",
+    "纯合成数据（220 万张 / 100k 字体）实现零样本泛化到未见印刷体与手写体"
+   ],
+   "benchmarks": [
+    "IAM Word/Line",
+    "CVL Line",
+    "RIMES Line",
+    "Karaoke (calligraphy + typewritten)"
+   ]
+  }
+ }
 }
