@@ -4,5 +4,33 @@
  "title": "Gaussian-Splashing-Unified-Particles-for-Versatile-Motion-Sy",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:57:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5fb8e6d8-c260-4907-972d-ae80ab120a3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5fb8e6d8-c260-4907-972d-ae80ab120a3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:08:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "Position-Based Dynamics",
+    "Fluid Simulation",
+    "Physically-Based Rendering",
+    "Solid-Fluid Interaction",
+    "Novel View Synthesis"
+   ],
+   "field": "物理驱动3D场景重建与渲染",
+   "innovations": [
+    "解耦PBD仿真粒子与3DGS渲染核的统一粒子框架",
+    "各向异性正则化抑制大旋转形变尖刺伪影",
+    "基于Beer-Lambert厚度的流体PBR渲染与表面张力法向估计"
+   ],
+   "benchmarks": [
+    "Waves crashing on cliff",
+    "LEGO bulldozer surfing",
+    "Deformable ficus",
+    "Headset droplets",
+    "Bulldozers stacking"
+   ]
+  }
+ }
 }

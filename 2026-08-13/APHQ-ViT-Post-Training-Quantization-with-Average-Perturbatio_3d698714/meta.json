@@ -4,5 +4,29 @@
  "title": "APHQ-ViT-Post-Training-Quantization-with-Average-Perturbatio",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:07:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/735865f2-715e-493e-91fe-a8ba1cc54547.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/735865f2-715e-493e-91fe-a8ba1cc54547.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:59:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Post-Training Quantization",
+    "Vision Transformer",
+    "Hessian-based Reconstruction",
+    "Low-bit Quantization",
+    "MLP Reconstruction"
+   ],
+   "field": "模型压缩与量化",
+   "innovations": [
+    "提出平均扰动海森（APH）损失以提升块重建的重要性估计准确性",
+    "设计 MLP 重建（MR）将 GELU 替换为 ReLU 以改善激活分布和量化性能"
+   ],
+   "benchmarks": [
+    "ImageNet Classification",
+    "COCO Object Detection",
+    "COCO Instance Segmentation"
+   ]
+  }
+ }
 }

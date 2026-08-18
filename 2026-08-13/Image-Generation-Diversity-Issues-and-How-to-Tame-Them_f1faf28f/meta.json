@@ -4,5 +4,33 @@
  "title": "Image-Generation-Diversity-Issues-and-How-to-Tame-Them",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 06:57:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4253a3db-f046-4c2f-b699-66413a2cc779.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4253a3db-f046-4c2f-b699-66413a2cc779.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:11:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散模型",
+    "多样性评估",
+    "图像检索",
+    "生成模型",
+    "测量缺口",
+    "DiADM"
+   ],
+   "field": "生成模型评估与多样性",
+   "innovations": [
+    "提出IRS图像检索多样性指标，基于Coupon Collector框架可从小样本估计带置信区间的多样性",
+    "揭示常用特征提取器的测量缺口问题并给出校正方法",
+    "提出DiADM通过伪无条件特征解耦多样性与保真度提升无条件扩散模型多样性"
+   ],
+   "benchmarks": [
+    "ImageNet-512",
+    "FFHQ",
+    "ChestX-ray14",
+    "CelebV-HQ",
+    "Dynamic"
+   ]
+  }
+ }
 }

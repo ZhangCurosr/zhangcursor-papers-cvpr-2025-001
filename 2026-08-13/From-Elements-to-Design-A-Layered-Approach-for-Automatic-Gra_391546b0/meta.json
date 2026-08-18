@@ -4,5 +4,28 @@
  "title": "From-Elements-to-Design-A-Layered-Approach-for-Automatic-Gra",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 06:58:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/392a8d4d-3a52-409a-a02c-5e7490504087.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/392a8d4d-3a52-409a-a02c-5e7490504087.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:05:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graphic Design",
+    "Multimodal Generation",
+    "Layout Generation",
+    "Large Multimodal Models",
+    "Design Composition"
+   ],
+   "field": "多模态图形设计生成",
+   "innovations": [
+    "首次将分层设计原则引入LMMs实现逐层设计组合",
+    "设计分层规划模块利用GPT-4o预测元素语义标签",
+    "分层递进式属性预测利用中间渲染图作为上下文"
+   ],
+   "benchmarks": [
+    "Crello-v4"
+   ]
+  }
+ }
 }

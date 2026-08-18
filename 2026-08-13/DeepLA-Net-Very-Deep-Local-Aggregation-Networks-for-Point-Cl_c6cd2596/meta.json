@@ -4,5 +4,10 @@
  "title": "DeepLA-Net-Very-Deep-Local-Aggregation-Networks-for-Point-Cl",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:09:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b47c3bb-dd14-4420-a9df-2fe305ea2ffc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b47c3bb-dd14-4420-a9df-2fe305ea2ffc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:00:33",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "HiLoTs-High-Low-Temporal-Sensitive-Representation-Learning-f",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/266def52-e7e8-4ad8-b955-e7e4774fe83e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/266def52-e7e8-4ad8-b955-e7e4774fe83e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:09:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semi-supervised LiDAR segmentation",
+    "temporal sensitivity",
+    "point cloud",
+    "Mean Teacher",
+    "cylindrical voxelization",
+    "cross-attention"
+   ],
+   "field": "自动驾驶LiDAR语义分割",
+   "innovations": [
+    "提出距离感知的双路高/低时间敏感性流（HTSF/LTSF）建模远近端时序差异",
+    "设计Multi-Voxel Aggregation降低Transformer时序注意力计算复杂度",
+    "纯LiDAR半监督方法达到与LiDAR+Camera多模态方法相近的性能水平"
+   ],
+   "benchmarks": [
+    "SemanticKITTI",
+    "nuScenes"
+   ]
+  }
+ }
 }

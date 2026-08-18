@@ -4,5 +4,10 @@
  "title": "Galaxy-Walker-Geometry-aware-VLMs-For-Galaxy-scale-Understan",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 06:57:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b2815f51-c3ab-4cef-8d34-188eedfadba2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b2815f51-c3ab-4cef-8d34-188eedfadba2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:08:51",
+  "chunks": 1
+ }
 }

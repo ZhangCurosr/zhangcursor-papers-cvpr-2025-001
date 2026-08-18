@@ -4,5 +4,31 @@
  "title": "EDCFlow-Exploring-Temporally-Dense-Difference-Maps-for-Event",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 06:58:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f4867a3-79dd-488e-a55f-640b542ff162.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f4867a3-79dd-488e-a55f-640b542ff162.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:02:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "event-based optical flow",
+    "RAFT",
+    "cost volume",
+    "feature difference",
+    "temporally dense",
+    "high-resolution refinement"
+   ],
+   "field": "事件视觉与运动估计",
+   "innovations": [
+    "提出multi-scale temporal feature difference layer以O(TNC)复杂度显式编码连续中间运动",
+    "联合利用高分辨率difference motion features与低分辨率correlation motion features的互补性",
+    "EDCFlow可作为plug-and-play细化模块集成至任意RAFT-like事件光流网络"
+   ],
+   "benchmarks": [
+    "DSEC",
+    "MVSEC",
+    "Blinkflow"
+   ]
+  }
+ }
 }

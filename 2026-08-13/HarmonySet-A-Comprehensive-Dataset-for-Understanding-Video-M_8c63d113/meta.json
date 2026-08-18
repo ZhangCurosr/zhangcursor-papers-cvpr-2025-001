@@ -4,5 +4,31 @@
  "title": "HarmonySet-A-Comprehensive-Dataset-for-Understanding-Video-M",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 06:57:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77635fd6-264e-4da1-aa8f-d7cee3dbb570.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77635fd6-264e-4da1-aa8f-d7cee3dbb570.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:10:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video-music alignment",
+    "multimodal large language models",
+    "dataset",
+    "temporal synchronization",
+    "semantic alignment",
+    "instruction tuning",
+    "HarmonySet"
+   ],
+   "field": "多模态理解与评测",
+   "innovations": [
+    "首个视频-音乐多维对齐数据集HarmonySet，覆盖节奏同步、情感对齐、主题一致性、文化相关性四维度",
+    "多步骤人机协作标注框架，结合人工时序锚定与机器描述生成",
+    "双轨评估基准OE+MC，首次系统评测MLLMs的视频-音乐对齐理解能力"
+   ],
+   "benchmarks": [
+    "HarmonySet-OE",
+    "HarmonySet-MC"
+   ]
+  }
+ }
 }

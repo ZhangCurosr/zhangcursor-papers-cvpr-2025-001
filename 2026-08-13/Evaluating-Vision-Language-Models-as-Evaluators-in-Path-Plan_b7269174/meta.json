@@ -4,5 +4,10 @@
  "title": "Evaluating-Vision-Language-Models-as-Evaluators-in-Path-Plan",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:57:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f899a57-feea-4677-9cb7-435f642b6b39.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f899a57-feea-4677-9cb7-435f642b6b39.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:03:55",
+  "chunks": 1
+ }
 }

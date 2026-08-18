@@ -4,5 +4,31 @@
  "title": "GPAvatar-High-fidelity-Head-Avatars-by-Learning-Efficient-Ga",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 06:58:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49da8baa-07d4-4c57-a613-d51e4efc05b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49da8baa-07d4-4c57-a613-d51e4efc05b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:07:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "head avatar",
+    "facial reenactment",
+    "monocular reconstruction",
+    "linear projection",
+    "real-time rendering"
+   ],
+   "field": "头像重建与驱动",
+   "innovations": [
+    "将3D高斯扩展至n+3维嵌入空间（空间+表情系数）并通过3n参数线性变换投影回3D空间",
+    "针对投影参数L的自适应密度控制策略",
+    "以简单线性投影替代复杂MLP变形场，实现450fps渲染与低显存占用"
+   ],
+   "benchmarks": [
+    "INSTA dataset",
+    "GBS dataset",
+    "self-collected 7-actor dataset"
+   ]
+  }
+ }
 }

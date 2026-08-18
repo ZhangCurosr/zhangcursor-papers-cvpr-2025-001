@@ -4,5 +4,32 @@
  "title": "FreeUV-Ground-Truth-Free-Realistic-Facial-UV-Texture-Recover",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 06:57:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/243ff373-87c6-44aa-9188-934608119aee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/243ff373-87c6-44aa-9188-934608119aee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:07:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Facial UV Texture Recovery",
+    "Ground-Truth-Free Learning",
+    "Diffusion Model",
+    "Stable Diffusion",
+    "Cross-Assembly",
+    "3D Face Reconstruction",
+    "In-the-wild"
+   ],
+   "field": "3D人脸重建与纹理生成",
+   "innovations": [
+    "提出无需ground-truth UV数据的纹理恢复框架，通过外观-结构解耦训练实现高质量UV生成",
+    "Cross-Assembly推理策略：训练时分离学习外观提取和结构重建，推理时组合实现UV-to-UV映射",
+    "Flaw-Tolerant面部细节提取器：基于CLIP+通道注意力，对不完整/畸变UV输入具有鲁棒性"
+   ],
+   "benchmarks": [
+    "FFHQ",
+    "CelebAMask-HQ",
+    "LPFF (Large Pose Face Dataset)"
+   ]
+  }
+ }
 }

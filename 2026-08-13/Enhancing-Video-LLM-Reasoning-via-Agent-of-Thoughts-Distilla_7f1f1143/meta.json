@@ -4,5 +4,36 @@
  "title": "Enhancing-Video-LLM-Reasoning-via-Agent-of-Thoughts-Distilla",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:58:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b8c25b1e-8e6d-474c-9ac6-93183f09a4f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b8c25b1e-8e6d-474c-9ac6-93183f09a4f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:04:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VideoQA",
+    "Chain-of-Thought",
+    "Video-LLM",
+    "Agent-based System",
+    "Knowledge Distillation",
+    "Multi-modal Reasoning"
+   ],
+   "field": "视频语言模型推理",
+   "innovations": [
+    "提出AoTD方法将Agent生成的多步推理链蒸馏到Video-LLM中",
+    "构建自动化CoT生成流水线并通过LLM两阶段验证确保质量",
+    "首次在视频领域系统性地将多工具编排与生成模型蒸馏结合"
+   ],
+   "benchmarks": [
+    "STAR",
+    "NExT-QA",
+    "AGQA",
+    "ANetQA",
+    "MVBench",
+    "VideoMME",
+    "Perception-Test",
+    "VSIBench"
+   ]
+  }
+ }
 }

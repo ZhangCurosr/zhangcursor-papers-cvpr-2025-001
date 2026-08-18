@@ -4,5 +4,31 @@
  "title": "High-Dynamic-Range-Video-Compression-A-Large-Scale-Benchmark",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 06:57:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5306fc48-7507-427a-901d-ffb5d1ccf529.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5306fc48-7507-427a-901d-ffb5d1ccf529.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:10:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "HDR视频压缩",
+    "学习视频压缩",
+    "位深可扩展编码",
+    "大规模数据集",
+    "动态范围先验",
+    "LVC"
+   ],
+   "field": "高分辨率视频压缩",
+   "innovations": [
+    "首个大规模HDR视频压缩数据集HDRVD2K",
+    "首个学习位深可扩展HDR视频压缩框架LBSVC",
+    "压缩友好的位深增强模块BEM通过动态范围先验高效预测HDR内容"
+   ],
+   "benchmarks": [
+    "HDRVD2K",
+    "JVET",
+    "HDM"
+   ]
+  }
+ }
 }

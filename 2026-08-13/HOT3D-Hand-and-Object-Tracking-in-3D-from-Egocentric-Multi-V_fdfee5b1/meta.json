@@ -4,5 +4,33 @@
  "title": "HOT3D-Hand-and-Object-Tracking-in-3D-from-Egocentric-Multi-V",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 06:58:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0fc11db-8e97-43f6-b66a-55d8f8101a7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0fc11db-8e97-43f6-b66a-55d8f8101a7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:10:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric vision",
+    "hand-object interaction",
+    "multi-view tracking",
+    "6DoF pose estimation",
+    "HOT3D dataset",
+    "3D hand tracking"
+   ],
+   "field": "第一人称多视角3D感知",
+   "innovations": [
+    "发布首个真实头显硬件时间同步多视角第一人称手-物体3D数据集HOT3D",
+    "将FoundPose扩展为多视角6DoF物体位姿估计方法并建立强基线",
+    "系统验证多视角第一人称数据在手追踪、物体位姿估计、手持物体3D定位三类任务上的显著优势"
+   ],
+   "benchmarks": [
+    "HOT3D-Aria",
+    "HOT3D-Quest3",
+    "UmeTrack",
+    "BOP (6DoF pose estimation)",
+    "EgoHOS (hand-object segmentation)"
+   ]
+  }
+ }
 }

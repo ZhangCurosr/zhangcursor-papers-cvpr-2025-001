@@ -4,5 +4,29 @@
  "title": "HMAR-Efficient-Hierarchical-Masked-Auto-Regressive-Image-Gen",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 06:57:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/94f6a97e-adb7-4eb8-a8ff-ec29a09e4594.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/94f6a97e-adb7-4eb8-a8ff-ec29a09e4594.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:09:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image generation",
+    "autoregressive modeling",
+    "masked generation",
+    "hierarchical generation",
+    "efficient attention"
+   ],
+   "field": "自回归图像生成",
+   "innovations": [
+    "Markovian下一尺度预测将条件依赖简化为相邻尺度",
+    "尺度内多步掩码生成消除过平滑假设",
+    "I/O感知块稀疏注意力内核加速10×"
+   ],
+   "benchmarks": [
+    "ImageNet 256x256",
+    "ImageNet 512x512"
+   ]
+  }
+ }
 }

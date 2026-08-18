@@ -4,5 +4,29 @@
  "title": "Event-Equalized-Dense-Video-Captioning",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 06:58:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0c4ac0e7-61b0-4987-8505-831da3df3506.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0c4ac0e7-61b0-4987-8505-831da3df3506.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:04:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dense Video Captioning",
+    "Temporal Bias",
+    "Query Initialization",
+    "Hierarchical Clustering",
+    "Deformable Transformer"
+   ],
+   "field": "密集视频描述与视频理解",
+   "innovations": [
+    "提出EPM无训练聚类感知伪事件，首次在不依赖时间分布的前提下实现事件公平感知",
+    "提出PEI模块将伪事件时间中心编码为decoder query初始化，显著提升短事件召回",
+    "设计EEE模块将伪事件label嵌入拼接进Transformer编码器，缓解短事件特征被淹没问题"
+   ],
+   "benchmarks": [
+    "ActivityNet Captions",
+    "YouCook2"
+   ]
+  }
+ }
 }

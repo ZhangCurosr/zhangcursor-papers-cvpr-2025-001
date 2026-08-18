@@ -4,5 +4,37 @@
  "title": "DivPrune-Diversity-based-Visual-Token-Pruning-for-Large-Mult",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 06:57:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1ed1c4a2-7af9-468f-84ea-a098e7a79093.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1ed1c4a2-7af9-468f-84ea-a098e7a79093.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:00:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Token Pruning",
+    "Large Multimodal Models",
+    "Max-Min Diversity",
+    "Efficient Inference",
+    "Token Selection"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "将视觉Token剪枝形式化为MMDP并通过贪心算法精确求解",
+    "提出无需微调/校准的即插即用多样性剪枝方法DivPrune",
+    "在16个图像/视频理解数据集上实现极端压缩（≥80%）下的SOTA精度"
+   ],
+   "benchmarks": [
+    "COCO",
+    "GQA",
+    "MMMU",
+    "POPE",
+    "MMBench",
+    "MME",
+    "SeedBench",
+    "ActivityNet",
+    "NextQA",
+    "EgoSchema"
+   ]
+  }
+ }
 }

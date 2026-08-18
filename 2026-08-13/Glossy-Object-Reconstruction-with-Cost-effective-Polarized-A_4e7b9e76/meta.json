@@ -4,5 +4,38 @@
  "title": "Glossy-Object-Reconstruction-with-Cost-effective-Polarized-A",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 06:57:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65eb42d0-0b01-437b-bac6-1c4514dc43d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65eb42d0-0b01-437b-bac6-1c4514dc43d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:09:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "glossy object reconstruction",
+    "polarization-aware NeRF",
+    "shape from polarization",
+    "radiance decomposition",
+    "cost-effective acquisition",
+    "neural implicit surface",
+    "pBRDF",
+    "single-view polarization"
+   ],
+   "field": "神经辐射场与偏振计算机视觉",
+   "innovations": [
+    "单张未知偏振角图像驱动的低成本偏振NeRF重建",
+    "可微Mueller矩阵偏振渲染层联合优化偏振角与场景参数",
+    "pBRDF物理约束下的高保真几何与漫/镜面辐射联合恢复"
+   ],
+   "benchmarks": [
+    "RedOx",
+    "GreenOx",
+    "Cat",
+    "Horse",
+    "Lays",
+    "Bust (synthetic)",
+    "Owl (synthetic)",
+    "Gnome (synthetic)"
+   ]
+  }
+ }
 }

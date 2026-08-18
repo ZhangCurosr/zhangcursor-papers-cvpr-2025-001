@@ -4,5 +4,33 @@
  "title": "Estimating-Body-and-Hand-Motion-in-an-Ego-sensed-World",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:57:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5ae3ce4-8b12-41b7-a3d7-8c0bdc9111d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5ae3ce4-8b12-41b7-a3d7-8c0bdc9111d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:03:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric human motion estimation",
+    "diffusion model",
+    "invariant conditioning",
+    "body and hand estimation",
+    "SMPL-H",
+    "Project Aria",
+    "allocentric reconstruction"
+   ],
+   "field": "egocentric 3D human pose and hand estimation",
+   "innovations": [
+    "提出空间和时间不变性准则并据此设计 per-timestep locally canonicalized 条件参数化，将 body 估计误差最高降低 18%",
+    "利用估计的身体 kinematic 约束指导手部 diffusion guidance，将世界坐标系下手部 MPJPE 降低 45%",
+    "将身高参数 β 纳入 diffusion 输出，实现 metric-scale grounded 估计并显著改善脚触地与头部对齐"
+   ],
+   "benchmarks": [
+    "AMASS",
+    "RICH",
+    "Aria Digital Twins (ADT)",
+    "EgoExo4D"
+   ]
+  }
+ }
 }

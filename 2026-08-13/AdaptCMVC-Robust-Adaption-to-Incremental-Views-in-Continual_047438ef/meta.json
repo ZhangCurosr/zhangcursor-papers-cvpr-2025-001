@@ -4,5 +4,34 @@
  "title": "AdaptCMVC-Robust-Adaption-to-Incremental-Views-in-Continual",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2b435277-6ad5-4c63-b615-033a99776c76.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2b435277-6ad5-4c63-b615-033a99776c76.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:59:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续多视图聚类",
+    "域适应",
+    "自训练",
+    "灾难性遗忘",
+    "噪声鲁棒",
+    "结构对齐"
+   ],
+   "field": "持续学习与多视图表示学习",
+   "innovations": [
+    "从域适应视角重构CMVC问题，提出统一基线模型增量适应策略",
+    "设计噪声鲁棒自训练框架，通过距离加权一致性损失抑制视图噪声",
+    "提出结构对齐学习机制，通过相似度矩阵EMA更新防止灾难性遗忘"
+   ],
+   "benchmarks": [
+    "E-MNIST",
+    "E-FMNIST",
+    "Office-31",
+    "COIL-100",
+    "COIL-20",
+    "PatchedMNIST"
+   ]
+  }
+ }
 }

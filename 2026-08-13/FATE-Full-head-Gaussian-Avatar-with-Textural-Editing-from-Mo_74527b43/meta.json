@@ -4,5 +4,10 @@
  "title": "FATE-Full-head-Gaussian-Avatar-with-Textural-Editing-from-Mo",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 06:58:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/030878ab-042e-44b4-a136-349a50814bd6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/030878ab-042e-44b4-a136-349a50814bd6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:05:59",
+  "chunks": 1
+ }
 }

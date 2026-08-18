@@ -4,5 +4,32 @@
  "title": "Hybrid-Level-Instruction-Injection-for-Video-Token-Compressi",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 06:58:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ad6669fe-9ad9-4eb9-9b4c-8cf5d0db9af6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ad6669fe-9ad9-4eb9-9b4c-8cf5d0db9af6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:11:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频理解",
+    "多模态大语言模型",
+    "token压缩",
+    "条件压缩",
+    "指令注入",
+    "HICom"
+   ],
+   "field": "多模态大语言模型高效推理",
+   "innovations": [
+    "混合层级指令注入实现条件token压缩，局部保持时空结构、全局提取关键信息",
+    "新增条件预训练阶段（align→cond-pretrain→instruction tuning）解决对齐不充分导致的引导混乱问题"
+   ],
+   "benchmarks": [
+    "VideoMME",
+    "MVBench",
+    "EgoSchema",
+    "ActivityNet",
+    "VideoChatGPT Bench"
+   ]
+  }
+ }
 }

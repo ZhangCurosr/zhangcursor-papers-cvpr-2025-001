@@ -4,5 +4,30 @@
  "title": "From-Laboratory-to-Real-World-A-New-Benchmark-Towards-Privac",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 06:58:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/39f2629b-3f63-4ee2-9d05-6ed6393ca1ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/39f2629b-3f63-4ee2-9d05-6ed6393ca1ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:06:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VI-ReID",
+    "联邦学习",
+    "隐私保护",
+    "行人重识别",
+    "域泛化",
+    "跨模态"
+   ],
+   "field": "可见-红外行人重识别与联邦学习交叉",
+   "innovations": [
+    "提出L2RW基准与CI/EI/ES三层隐私协议，首次将隐私保护纳入VI-ReID研究框架",
+    "设计DPPT去中心化隐私保护训练方法及MRB记忆校正模块，解决模态缺失/身份缺失/域偏移三重挑战"
+   ],
+   "benchmarks": [
+    "SYSU-MM01",
+    "RegDB",
+    "LLCM"
+   ]
+  }
+ }
 }

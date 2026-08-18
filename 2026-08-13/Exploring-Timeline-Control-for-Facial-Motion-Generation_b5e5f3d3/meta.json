@@ -4,5 +4,35 @@
  "title": "Exploring-Timeline-Control-for-Facial-Motion-Generation",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:58:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0dd84cc3-29d8-4e6f-b7aa-6953ab0913c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0dd84cc3-29d8-4e6f-b7aa-6953ab0913c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:04:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Facial Motion Generation",
+    "Timeline Control",
+    "Diffusion Model",
+    "Time Series Clustering",
+    "TICC",
+    "3DMM",
+    "FaceVerse",
+    "Multimodal Generation"
+   ],
+   "field": "面部动作生成与可控视频合成",
+   "innovations": [
+    "首次提出时间线控制作为面部动作生成的精确时序控制信号",
+    "基于TICC的高效帧级面部动作时间区间标注方法",
+    "Base-Branch扩散架构平衡面部运动解耦精度与自然耦合"
+   ],
+   "benchmarks": [
+    "RealTalk",
+    "TAS (Timeline Alignment Score)",
+    "Macro-F1",
+    "FID_fm",
+    "FID_Δfm"
+   ]
+  }
+ }
 }

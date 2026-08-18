@@ -4,5 +4,31 @@
  "title": "GAF-Gaussian-Avatar-Reconstruction-from-Monocular-Videos-via",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:58:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b64fd003-0d5c-4ebd-8b83-7e771b016474.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b64fd003-0d5c-4ebd-8b83-7e771b016474.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:07:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "Head Avatar Reconstruction",
+    "Multi-view Diffusion",
+    "Monocular Video",
+    "Normal Map Conditioning",
+    "Score Distillation Sampling",
+    "Parametric Head Model"
+   ],
+   "field": "单目头像重建与3D生成",
+   "innovations": [
+    "提出 FLAME 法线图条件多视图头部分扩散模型，提供像素对齐视角控制",
+    "使用迭代去噪图像作为伪监督替代单步 SDS，消除过饱和伪影",
+    "引入潜变量上采样模块增强高斯渲染的面部细节与真实感"
+   ],
+   "benchmarks": [
+    "NeRSemble",
+    "INSTA Monocular Video"
+   ]
+  }
+ }
 }

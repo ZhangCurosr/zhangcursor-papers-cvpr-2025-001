@@ -4,5 +4,29 @@
  "title": "Erase-Diffusion-Empowering-Object-Removal-Through-Calibratin",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 06:58:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ee24edfb-c566-4b2a-86db-2b76dab35116.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ee24edfb-c566-4b2a-86db-2b76dab35116.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:03:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image inpainting",
+    "object removal",
+    "diffusion models",
+    "erasure",
+    "attention calibration",
+    "CVPR 2025"
+   ],
+   "field": "图像生成与编辑",
+   "innovations": [
+    "提出链式校正优化(CRO)构建物体到背景的扩散路径",
+    "设计自校正注意力(SRA)抑制掩码区域内伪影传播",
+    "零样本动态图像合成训练擦除专用扩散模型"
+   ],
+   "benchmarks": [
+    "OpenImages V5"
+   ]
+  }
+ }
 }

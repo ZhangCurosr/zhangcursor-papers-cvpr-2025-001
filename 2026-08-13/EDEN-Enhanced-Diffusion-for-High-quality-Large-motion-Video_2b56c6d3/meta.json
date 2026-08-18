@@ -4,5 +4,30 @@
  "title": "EDEN-Enhanced-Diffusion-for-High-quality-Large-motion-Video",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:58:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6dc48437-dbbb-4e16-8f3d-768ee6a9c91c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6dc48437-dbbb-4e16-8f3d-768ee6a9c91c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:01:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Frame Interpolation",
+    "Diffusion Model",
+    "Large Motion",
+    "Transformer",
+    "Latent Representation"
+   ],
+   "field": "视频帧插值与生成模型",
+   "innovations": [
+    "基于Transformer的1D token化tokenizer替代2D卷积VAE",
+    "双路径上下文注入：时间注意力+帧差嵌入",
+    "Diffusion Transformer适配大运动帧插值"
+   ],
+   "benchmarks": [
+    "DAVIS",
+    "DAIN-HD544p",
+    "SNU-FILM"
+   ]
+  }
+ }
 }

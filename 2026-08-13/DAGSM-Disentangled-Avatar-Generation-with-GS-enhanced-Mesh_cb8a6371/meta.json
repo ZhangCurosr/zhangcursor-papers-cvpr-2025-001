@@ -4,5 +4,30 @@
  "title": "DAGSM-Disentangled-Avatar-Generation-with-GS-enhanced-Mesh",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:57:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/edcde297-f8a6-49d3-a378-15d969b2afb7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/edcde297-f8a6-49d3-a378-15d969b2afb7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:00:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-3D human",
+    "disentangled avatar",
+    "Gaussian splatting",
+    "GS-enhanced mesh",
+    "virtual try-on",
+    "texture refinement"
+   ],
+   "field": "文本驱动3D数字人生成",
+   "innovations": [
+    "提出顺序解耦的GSM生成管线，支持换装与物理仿真动画",
+    "设计SAM-based语义过滤实现人体-衣物自动分离",
+    "引入跨视角注意力与入射角加权去噪实现视图一致性纹理细化"
+   ],
+   "benchmarks": [
+    "CLIP similarity (ViT-L/14, ViTbigG-14)",
+    "User study (visual quality, text alignment, animation realism)"
+   ]
+  }
+ }
 }

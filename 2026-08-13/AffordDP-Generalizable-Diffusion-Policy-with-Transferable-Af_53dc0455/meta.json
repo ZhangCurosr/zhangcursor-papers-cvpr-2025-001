@@ -4,5 +4,30 @@
  "title": "AffordDP-Generalizable-Diffusion-Policy-with-Transferable-Af",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 06:57:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aec4732a-413e-4266-a1af-740062256e7a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aec4732a-413e-4266-a1af-740062256e7a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:59:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散策略",
+    "可转移可供性",
+    "跨类别泛化",
+    "机器人操作",
+    "模仿学习",
+    "扩散采样引导"
+   ],
+   "field": "具身智能/机器人学习",
+   "innovations": [
+    "提出可转移的3D静态接触点与动态轨迹作为统一affordance表征",
+    "基于基础视觉模型与解耦6D变换实现跨物体affordance迁移",
+    "在扩散采样中引入自适应affordance引导以增强动作精度"
+   ],
+   "benchmarks": [
+    "IsaacGym仿真PullDrawer/OpenDoor",
+    "真机PullDrawer/OpenDoor/Pick&Place"
+   ]
+  }
+ }
 }

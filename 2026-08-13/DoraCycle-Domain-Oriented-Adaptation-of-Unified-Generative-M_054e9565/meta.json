@@ -4,5 +4,32 @@
  "title": "DoraCycle-Domain-Oriented-Adaptation-of-Unified-Generative-M",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:57:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/383539e3-08b9-4441-af09-d3cfc1213a26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/383539e3-08b9-4441-af09-d3cfc1213a26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:01:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "domain adaptation",
+    "unified generative model",
+    "cycle consistency",
+    "multimodal generation",
+    "unpaired data",
+    "gradient surgery",
+    "EMA"
+   ],
+   "field": "多模态生成与领域适应",
+   "innovations": [
+    "提出T/I双多模态循环实现仅用未配对数据的领域自适应",
+    "引入EMA与梯度手术联合稳定双循环优化",
+    "验证少量配对+大量未配对数据的灵活适配范式"
+   ],
+   "benchmarks": [
+    "Storyboard20K",
+    "Black Myth Wukong",
+    "Doraemon"
+   ]
+  }
+ }
 }

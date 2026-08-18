@@ -4,5 +4,30 @@
  "title": "Handling-Spatial-Temporal-Data-Heterogeneity-for-Federated-C",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:57:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f55b04ec-fc4b-4554-ada3-47f67b342b03.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f55b04ec-fc4b-4554-ada3-47f67b342b03.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:09:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Continual Learning",
+    "Spatial-Temporal Data Heterogeneity",
+    "Catastrophic Forgetting",
+    "Vision Transformer",
+    "Tail Anchor",
+    "Feature Space Alignment"
+   ],
+   "field": "联邦持续学习",
+   "innovations": [
+    "提出 Tail Anchor 机制通过冻结预训练 ViT 和可学习尾锚同时克服参数遗忘与输出遗忘",
+    "设计最优全局原型选择策略以最低平均相似度准则维护特征空间稳定性",
+    "首次系统揭示输入层异构导致参数遗忘和输出遗忘的双重遗忘机制"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "ImageNet-R"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Ferret-An-Efficient-Online-Continual-Learning-Framework-unde",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 06:58:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a0b2bbad-4d9f-4dfc-a821-3c2a7c7dab78.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a0b2bbad-4d9f-4dfc-a821-3c2a7c7dab78.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:05:19",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Free-on-the-Fly-Enhancing-Flexibility-in-Test-Time-Adaptatio",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:57:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61a9f721-b521-4e69-9443-91959b8a2ce7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61a9f721-b521-4e69-9443-91959b8a2ce7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:05:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Test-Time Adaptation",
+    "Vision-Language Model",
+    "Gaussian Mixture Model",
+    "Online EM",
+    "Zero-Shot Generalization",
+    "Domain Shift"
+   ],
+   "field": "测试时自适应",
+   "innovations": [
+    "首次将在线EM算法引入VLM测试时自适应，显式建模目标分布",
+    "提出置信度加权机制，利用CLIP零样本熵动态调节样本影响力",
+    "同时满足分布建模、可用性与免训练三大特性"
+   ],
+   "benchmarks": [
+    "Cross-Domain Benchmark (10 datasets)",
+    "ImageNet-A/V2/R/S OOD Benchmark"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "HyperGS-Hyperspectral-3D-Gaussian-Splatting",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 06:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/925542c6-2cc8-4c54-a02b-3ac591153a23.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/925542c6-2cc8-4c54-a02b-3ac591153a23.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:12:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "高光谱新视角合成",
+    "3D Gaussian Splatting",
+    "潜在空间渲染",
+    "高光谱重建",
+    "Novel View Synthesis"
+   ],
+   "field": "高光谱三维视觉与渲染",
+   "innovations": [
+    "首个在潜在高维空间中执行的 3D Gaussian Splatting 高光谱新视角合成框架",
+    "视向依赖哈希编码 MLP 实现各向异性光谱外观建模",
+    "像素级 Top-K 光谱重要性剪枝与深度缩放自适应密度控制"
+   ],
+   "benchmarks": [
+    "BaySpec 高光谱数据集",
+    "SOP 高光谱数据集",
+    "ScanNetv200 合成高光谱场景"
+   ]
+  }
+ }
 }

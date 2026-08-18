@@ -4,5 +4,40 @@
  "title": "Img-Diff-Contrastive-Data-Synthesis-for-Multimodal-Large-Lan",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3c599af-6a50-4829-baab-742cd69b6226.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3c599af-6a50-4829-baab-742cd69b6226.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:12:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Large Language Models",
+    "Contrastive Data Synthesis",
+    "Image Difference Captioning",
+    "Object Replacement",
+    "Visual Instruction Tuning",
+    "Stable Diffusion",
+    "Prompt-to-Prompt"
+   ],
+   "field": "多模态大模型数据合成",
+   "innovations": [
+    "提出全自动 IMG-DIFF 对比数据合成流水线，通过四级过滤生成细粒度图像差异数据",
+    "设计 Difference Area Generator（CLIP相似度+FastSAM+BLIP匹配+IoU去重）和两阶段 Difference Captions Generator",
+    "在 MMVP 上超越 GPT-4V/Gemini 高达 12 分，8 个通用 MLLM 基准平均最高提升 3.06%"
+   ],
+   "benchmarks": [
+    "MMVP",
+    "Spot-the-Diff",
+    "Image-Edit-Request",
+    "VQAv2",
+    "GQA",
+    "MMBench",
+    "MMBench-CN",
+    "MM-Vet",
+    "ScienceQA",
+    "SEED-Bench",
+    "POPE"
+   ]
+  }
+ }
 }
