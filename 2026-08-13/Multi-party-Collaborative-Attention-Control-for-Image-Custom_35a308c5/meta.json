@@ -4,5 +4,30 @@
  "title": "Multi-party-Collaborative-Attention-Control-for-Image-Custom",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 14:56:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/805b4086-c922-4f5f-82d1-d717df62d998.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/805b4086-c922-4f5f-82d1-d717df62d998.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:40:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Image Customization",
+    "Diffusion Models",
+    "Tuning-free Generation",
+    "Attention Control",
+    "Subject Swapping",
+    "Zero-shot Editing"
+   ],
+   "field": "图像生成与编辑",
+   "innovations": [
+    "提出免微调的三并行扩散过程协作框架 MCA-Ctrl",
+    "设计 SALQ 与 SAGI 互补的自注意力控制策略兼顾主体一致性与条件布局对齐",
+    "引入基于 DINO+SAM 的 SLM 模块解决复杂视觉场景下的主体泄漏与特征混淆问题"
+   ],
+   "benchmarks": [
+    "DreamBench",
+    "DreamEdit-Bench"
+   ]
+  }
+ }
 }

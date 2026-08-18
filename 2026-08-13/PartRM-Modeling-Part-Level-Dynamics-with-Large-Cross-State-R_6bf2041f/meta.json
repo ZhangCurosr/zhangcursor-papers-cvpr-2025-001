@@ -4,5 +4,31 @@
  "title": "PartRM-Modeling-Part-Level-Dynamics-with-Large-Cross-State-R",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-13 14:55:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/71db155d-b632-4815-8279-ef4c23501227.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/71db155d-b632-4815-8279-ef4c23501227.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:46:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Part-level dynamics",
+    "4D reconstruction",
+    "3D Gaussian Splatting",
+    "Drag conditioning",
+    "World models",
+    "Catastrophic forgetting",
+    "Sim-to-real"
+   ],
+   "field": "3D视觉与动态重建",
+   "innovations": [
+    "提出PartRM框架，实现外观、几何与部件级运动同步的4D前馈重建",
+    "构建PartDrag-4D数据集，提供20,548个部件状态的多视图观测",
+    "设计多尺度拖拽嵌入与两阶段训练策略，缓解灾难性遗忘"
+   ],
+   "benchmarks": [
+    "PartDrag-4D",
+    "Objaverse-Animation-HQ"
+   ]
+  }
+ }
 }

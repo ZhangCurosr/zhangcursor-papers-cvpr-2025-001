@@ -4,5 +4,10 @@
  "title": "Medusa-A-Multi-Scale-High-order-Contrastive-Dual-Diffusion-A",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-13 14:54:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f0a372f-c6d1-49c6-ad68-61d1fa0d1ac4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f0a372f-c6d1-49c6-ad68-61d1fa0d1ac4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:38:36",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "DynamicScaler-Seamless-and-Scalable-Video-Generation-for-Pan",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/076223c6-f785-4be5-81d6-e4e8177186f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/076223c6-f785-4be5-81d6-e4e8177186f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:31:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "全景视频生成",
+    "扩散模型",
+    "无微调扩展",
+    "360° FoV",
+    "Offset Shifting Denoiser",
+    "Global Motion Guidance"
+   ],
+   "field": "全景/沉浸式视频生成",
+   "innovations": [
+    "提出无需微调的OSD移位去噪机制实现任意分辨率全景视频生成",
+    "设计GMG分层引导策略确保全局运动一致性",
+    "将去噪机制扩展至360°球面投影和时序循环维度"
+   ],
+   "benchmarks": [
+    "VBench",
+    "Q-Align",
+    "用户偏好研究"
+   ]
+  }
+ }
 }

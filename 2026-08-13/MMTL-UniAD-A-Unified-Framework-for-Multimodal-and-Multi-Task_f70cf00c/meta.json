@@ -4,5 +4,10 @@
  "title": "MMTL-UniAD-A-Unified-Framework-for-Multimodal-and-Multi-Task",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-13 14:56:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5dcd4fdc-8b91-4ecd-96a7-b46eac01875b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5dcd4fdc-8b91-4ecd-96a7-b46eac01875b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:38:14",
+  "chunks": 1
+ }
 }

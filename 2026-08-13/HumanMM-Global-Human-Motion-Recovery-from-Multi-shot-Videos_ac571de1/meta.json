@@ -4,5 +4,31 @@
  "title": "HumanMM-Global-Human-Motion-Recovery-from-Multi-shot-Videos",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 06:58:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b63973cd-8165-4edb-b02f-372a6ae62187.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b63973cd-8165-4edb-b02f-372a6ae62187.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:31:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human Motion Recovery",
+    "Multi-shot Video",
+    "World-coordinate Motion",
+    "Visual Odometry",
+    "Camera Calibration",
+    "Foot Sliding"
+   ],
+   "field": "单目3D人体姿态与运动恢复",
+   "innovations": [
+    "提出HumanMM首个多镜头世界坐标HMR框架，联合显式朝向对齐与可学习时序融合",
+    "Masked LEAP-VO通过人体掩码屏蔽动态区域，显著提升人本场景相机轨迹估计精度",
+    "构建ms-Motion多镜头基准数据集，填补多镜头3D人体运动评测空白"
+   ],
+   "benchmarks": [
+    "ms-Motion (ms-AIST, ms-H3.6M)",
+    "EMDB-1",
+    "EMDB-2"
+   ]
+  }
+ }
 }

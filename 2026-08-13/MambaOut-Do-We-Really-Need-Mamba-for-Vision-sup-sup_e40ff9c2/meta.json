@@ -4,5 +4,33 @@
  "title": "MambaOut-Do-We-Really-Need-Mamba-for-Vision-sup-sup",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/738f906e-8ed7-436d-aabb-403e989ca531.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/738f906e-8ed7-436d-aabb-403e989ca531.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:35:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mamba",
+    "State Space Model",
+    "Vision Transformer",
+    "Image Classification",
+    "Object Detection",
+    "Semantic Segmentation",
+    "Gated CNN",
+    "Visual Mamba"
+   ],
+   "field": "视觉基础模型与架构设计",
+   "innovations": [
+    "从 SSM 因果机制出发提出视觉任务适用性假设并实验验证",
+    "构建去除 SSM 的 MambaOut 作为 Visual Mamba 的 Occam's razor 基线",
+    "提出基于 FLOPs 比的长序列定量判据 r_L=L/(6D)"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "COCO 2017",
+    "ADE20K"
+   ]
+  }
+ }
 }

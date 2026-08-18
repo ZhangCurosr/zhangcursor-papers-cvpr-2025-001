@@ -4,5 +4,32 @@
  "title": "Nonisotropic-Gaussian-Diffusion-for-Realistic-3D-Human-Motio",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 14:55:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2a19d8f3-2320-4554-b8d1-bbae132131a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2a19d8f3-2320-4554-b8d1-bbae132131a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:41:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Human Motion Prediction",
+    "Diffusion Model",
+    "Nonisotropic Diffusion",
+    "Graph Convolutional Network",
+    "Stochastic Prediction",
+    "Body Realism",
+    "Skeleton Prior"
+   ],
+   "field": "3D人体运动预测与生成",
+   "innovations": [
+    "首次提出面向结构化骨架的非各向同性高斯扩散公式，利用固定协方差矩阵建模关节间运动学依赖",
+    "SkeletonDiffusion端到端骨架感知潜扩散架构，区分于仅在中间层利用骨架图的已有方法",
+    "引入肢体拉伸/抖动身体真实性指标并揭示多样性指标的潜在缺陷"
+   ],
+   "benchmarks": [
+    "AMASS",
+    "FreeMan",
+    "3DPW"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Progressive-Focused-Transformer-for-Single-Image-Super-Resol",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 14:56:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/493dd5d0-e548-403e-8a97-b916e9ea6ad3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/493dd5d0-e548-403e-8a97-b916e9ea6ad3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:44:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单图像超分辨率",
+    "Transformer",
+    "注意力机制",
+    "稀疏计算",
+    "渐进式聚焦"
+   ],
+   "field": "低级别视觉/图像超分辨率",
+   "innovations": [
+    "提出渐进式聚焦注意力(PFA)机制，通过Hadamard积跨层继承注意力图实现迭代聚焦",
+    "利用稀疏矩阵乘法(SMM)基于上层注意力图跳过无关token计算，实现计算加速",
+    "设计动态衰减的聚焦比例策略(K^l=αK^{l-1})，兼顾浅层信息保留与深层聚焦"
+   ],
+   "benchmarks": [
+    "Set5",
+    "Set14",
+    "BSD100",
+    "Urban100",
+    "Manga109"
+   ]
+  }
+ }
 }

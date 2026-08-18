@@ -4,5 +4,34 @@
  "title": "MANIPTRANS-Efficient-Dexterous-Bimanual-Manipulation-Transfe",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 14:56:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/52831baa-3fe3-435c-af6d-6b4a4a7fa0fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/52831baa-3fe3-435c-af6d-6b4a4a7fa0fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:33:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "灵巧操作",
+    "双指操作",
+    "迁移学习",
+    "残差学习",
+    "仿真到现实",
+    "DEXMANIPNET",
+    " imitation learning",
+    "dexterous manipulation"
+   ],
+   "field": "具身智能与灵巧操作",
+   "innovations": [
+    "两阶段解耦迁移框架：先预训练手部轨迹模仿器，再通过残差模块微调适配物理交互约束",
+    "课程松弛机制：初始零重力+高摩擦渐进恢复真实物理参数以加速接触丰富任务收敛"
+   ],
+   "benchmarks": [
+    "OakInk-V2",
+    "FAVOR",
+    "GRAB",
+    "ARCTIC",
+    "DEXMANIPNET"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Instruction-based-Image-Manipulation-by-Watching-How-Things",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 06:58:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d7a9ab77-7e93-4fc4-845c-aa3addb7688b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d7a9ab77-7e93-4fc4-845c-aa3addb7688b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:32:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction-based image editing",
+    "video frame dataset",
+    "spatial conditioning",
+    "non-rigid transformation",
+    "diffusion model",
+    "multimodal LLM"
+   ],
+   "field": "图像编辑与生成",
+   "innovations": [
+    "视频帧+MLLM构建真实目标编辑数据集",
+    "空间维度条件拼接策略提升内容一致性",
+    "兼容mask与ControlNet的灵活编辑框架"
+   ],
+   "benchmarks": [
+    "CLIP-D",
+    "CLIP-Inst",
+    "CLIP-I",
+    "Human Preference"
+   ]
+  }
+ }
 }

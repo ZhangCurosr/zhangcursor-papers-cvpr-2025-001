@@ -4,5 +4,32 @@
  "title": "SALAD-Skeleton-aware-Latent-Diffusion-for-Text-driven-Motion",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-13 14:55:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c6fcbfc4-735d-4b6e-ae83-5cb7491f388c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c6fcbfc4-735d-4b6e-ae83-5cb7491f388c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:49:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-motion generation",
+    "skeleton-aware diffusion",
+    "latent diffusion",
+    "zero-shot editing",
+    "cross-attention modulation",
+    "skeleto-temporal VAE",
+    "HumanML3D",
+    "motion synthesis"
+   ],
+   "field": "文本驱动3D动作生成与编辑",
+   "innovations": [
+    "提出骨骼感知latent diffusion框架SALAD，显式建模关节-帧-词三重视图交互",
+    "设计skeleto-temporal VAE解耦时空维度并以7个原子关节压缩表征",
+    "首次通过cross-attention调制实现训练-free零样本文本驱动动作编辑"
+   ],
+   "benchmarks": [
+    "HumanML3D",
+    "KIT-ML"
+   ]
+  }
+ }
 }

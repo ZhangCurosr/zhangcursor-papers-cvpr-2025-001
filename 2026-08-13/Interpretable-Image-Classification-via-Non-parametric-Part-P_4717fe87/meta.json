@@ -4,5 +4,30 @@
  "title": "Interpretable-Image-Classification-via-Non-parametric-Part-P",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 06:57:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5968fa5-6957-4248-98fd-a99e8dd89699.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5968fa5-6957-4248-98fd-a99e8dd89699.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:32:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释人工智能",
+    "原型网络",
+    "非参数聚类",
+    "视觉 transformers",
+    "概念瓶颈模型"
+   ],
+   "field": "可解释机器学习",
+   "innovations": [
+    "提出基于非参数聚类的部分原型学习方法以生成多样化部件解释",
+    "设计Distinctiveness与Comprehensiveness指标量化解释质量",
+    "结合基础视觉模型与Block Expansion微调策略提升可解释分类性能"
+   ],
+   "benchmarks": [
+    "CUB-200-2011",
+    "Stanford Cars",
+    "Stanford Dogs"
+   ]
+  }
+ }
 }

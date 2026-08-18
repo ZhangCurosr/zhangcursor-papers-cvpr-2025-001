@@ -4,5 +4,37 @@
  "title": "Multi-Layer-Visual-Feature-Fusion-in-Multimodal-LLMs-Methods",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8d5a9d60-e04a-4a58-bfdf-67ec6485868f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8d5a9d60-e04a-4a58-bfdf-67ec6485868f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:39:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "视觉特征融合",
+    "层选择",
+    "内部融合",
+    "外部融合",
+    "直接融合",
+    "MMFuser",
+    "Mini-LLaVA"
+   ],
+   "field": "多模态大模型架构设计",
+   "innovations": [
+    "提出相似度与比例双标准视觉层选择框架",
+    "建立 2x2 融合策略正交分类并系统消融",
+    "发现外部直接融合是性能最强且最稳定的最优实践"
+   ],
+   "benchmarks": [
+    "GQA",
+    "MMBench",
+    "MME",
+    "TextVQA",
+    "OCRBench",
+    "CV-Bench",
+    "POPE"
+   ]
+  }
+ }
 }

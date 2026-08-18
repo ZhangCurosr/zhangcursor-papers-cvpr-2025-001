@@ -4,5 +4,31 @@
  "title": "POp-GS-Next-Best-View-in-3D-Gaussian-Splatting-with-P-Optima",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 14:56:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65198100-7df1-4ceb-b1e0-764383a6c0af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65198100-7df1-4ceb-b1e0-764383a6c0af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:43:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "P-Optimality",
+    "Next Best View",
+    "Uncertainty Quantification",
+    "Active Perception",
+    "Optimal Experimental Design",
+    "Fisher Information"
+   ],
+   "field": "3D视觉与主动感知",
+   "innovations": [
+    "将P-Optimality最优实验设计框架引入3D-GS信息增益量化",
+    "提出块对角协方差近似捕获同椭球参数相关性",
+    "系统比较多种P-Optimality变体证明D/T-Optimality最优"
+   ],
+   "benchmarks": [
+    "Mip-NeRF360",
+    "Blender"
+   ]
+  }
+ }
 }

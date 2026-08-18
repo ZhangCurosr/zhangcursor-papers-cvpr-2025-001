@@ -4,5 +4,33 @@
  "title": "OmniGuard-Hybrid-Manipulation-Localization-via-Augmented-Ver",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-13 14:55:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dfebae26-77db-47fd-af38-5b1584b0bff9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dfebae26-77db-47fd-af38-5b1584b0bff9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:41:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像篡改定位",
+    "多功能水印",
+    "AIGC编辑",
+    "主动嵌入",
+    "被动提取",
+    "退化感知"
+   ],
+   "field": "数字图像取证与水印",
+   "innovations": [
+    "主动嵌入+被动盲提取的混合取证框架，解耦编码与解码优化目标",
+    "深度退化感知篡改提取器结合退化查询实现高精度鲁棒定位",
+    "轻量级AIGC编辑模拟替代完整扩散过程，训练提速23倍"
+   ],
+   "benchmarks": [
+    "COCO",
+    "UltraEdit",
+    "Stable Diffusion Inpaint",
+    "ControlNet Inpaint",
+    "Instructp2p"
+   ]
+  }
+ }
 }

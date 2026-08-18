@@ -4,5 +4,30 @@
  "title": "MangaNinja-Line-Art-Colorization-with-Precise-Reference-Foll",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 14:55:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4f72d197-9c87-4f57-a14b-a7adb0a96f0f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4f72d197-9c87-4f57-a14b-a7adb0a96f0f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:37:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Line Art Colorization",
+    "Reference-based Generation",
+    "Visual Correspondence",
+    "Diffusion Models",
+    "Point Control"
+   ],
+   "field": "图像生成与编辑",
+   "innovations": [
+    "Patch Shuffling 模块强制学习局部语义匹配能力",
+    "PointNet 驱动的细粒度交互式点控制方案",
+    "基于视频帧对的自动化训练数据构建策略"
+   ],
+   "benchmarks": [
+    "自建 200 对图像 benchmark",
+    "CLIP/DINO 语义相似度",
+    "PSNR/MS-SSIM/LPIPS"
+   ]
+  }
+ }
 }

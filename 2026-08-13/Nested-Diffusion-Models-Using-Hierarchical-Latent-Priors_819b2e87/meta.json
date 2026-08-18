@@ -4,5 +4,30 @@
  "title": "Nested-Diffusion-Models-Using-Hierarchical-Latent-Priors",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-13 14:55:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/821439d5-8a89-43a7-ac7d-89ead0fdf1ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/821439d5-8a89-43a7-ac7d-89ead0fdf1ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:40:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion models",
+    "hierarchical generative models",
+    "image generation",
+    "semantic representation",
+    "conditional generation",
+    "self-supervised learning"
+   ],
+   "field": "生成模型与表征学习",
+   "innovations": [
+    "提出分层语义引导的嵌套扩散模型框架，每层以更高抽象层级输出为条件",
+    "通过SVD降维与高斯噪声注入控制层级间信息容量，防止模型退化",
+    "无条件生成效能超越类别条件基线，同时保持计算高效"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "COCO-2014"
+   ]
+  }
+ }
 }

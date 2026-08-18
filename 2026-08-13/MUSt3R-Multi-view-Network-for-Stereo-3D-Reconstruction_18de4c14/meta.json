@@ -4,5 +4,37 @@
  "title": "MUSt3R-Multi-view-Network-for-Stereo-3D-Reconstruction",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 14:56:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b976b8d4-3c1c-4ce7-81f1-74da1ffc006d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b976b8d4-3c1c-4ce7-81f1-74da1ffc006d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:35:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-view reconstruction",
+    "visual odometry",
+    "pointmap",
+    "memory mechanism",
+    "uncalibrated SLAM",
+    "DUSt3R extension"
+   ],
+   "field": "3D视觉与SLAM",
+   "innovations": [
+    "对称共享权重多视图Decoder直接预测全局坐标系pointmap",
+    "多层记忆机制支持任意规模图像序列的增量推理",
+    "3D全局反馈注入提升浅层几何感知能力"
+   ],
+   "benchmarks": [
+    "TUM RGB-D",
+    "ETH3D SLAM",
+    "CO3Dv2",
+    "RealEstate10K",
+    "7Scenes",
+    "DTU",
+    "KITTI",
+    "ScanNet",
+    "Tanks and Temples"
+   ]
+  }
+ }
 }

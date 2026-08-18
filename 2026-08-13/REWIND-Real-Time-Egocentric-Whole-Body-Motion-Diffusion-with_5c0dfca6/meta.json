@@ -4,5 +4,29 @@
  "title": "REWIND-Real-Time-Egocentric-Whole-Body-Motion-Diffusion-with",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-13 14:54:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8fdcdf49-0c6b-42f2-8ed1-30973b79b793.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8fdcdf49-0c6b-42f2-8ed1-30973b79b793.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:48:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Egocentric Vision",
+    "Whole-Body Motion Estimation",
+    "Diffusion Model",
+    "Real-Time Motion Capture",
+    "Identity-Conditioned Generation"
+   ],
+   "field": "第一人称人体运动估计",
+   "innovations": [
+    "Cascaded body-hand denoising diffusion for fast, feed-forward whole-body estimation.",
+    "Causal relative-temporal Transformer enabling real-time, arbitrarily long motion generation.",
+    "Exemplar-based identity conditioning enhancing motion fidelity with minimal prior."
+   ],
+   "benchmarks": [
+    "ColossusEgo",
+    "UnrealEgo"
+   ]
+  }
+ }
 }

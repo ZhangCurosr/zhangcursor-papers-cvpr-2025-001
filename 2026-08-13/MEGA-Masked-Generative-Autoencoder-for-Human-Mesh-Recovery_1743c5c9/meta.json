@@ -4,5 +4,30 @@
  "title": "MEGA-Masked-Generative-Autoencoder-for-Human-Mesh-Recovery",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-13 14:55:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fe3722af-337b-4ff2-943c-46510cb3298f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fe3722af-337b-4ff2-943c-46510cb3298f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:33:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human Mesh Recovery",
+    "Masked Generative Modeling",
+    "Token-based 3D Representation",
+    "Probabilistic Prediction",
+    "Self-supervised Pretraining"
+   ],
+   "field": "单目3D人体重建",
+   "innovations": [
+    "首次将掩码生成Transformer应用于离散化人体网格恢复",
+    "支持确定性/随机性双模式推理的统一框架",
+    "余弦变量掩码调度与Encoder丢弃设计"
+   ],
+   "benchmarks": [
+    "3DPW",
+    "EMDB",
+    "3DPW-OCC"
+   ]
+  }
+ }
 }

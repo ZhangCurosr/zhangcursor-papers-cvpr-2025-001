@@ -4,5 +4,32 @@
  "title": "Motion-Grounded-Video-Reasoning-Understanding-and-Perceiving",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 14:55:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c857a1e-cb78-4ff4-8661-316f063b0331.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c857a1e-cb78-4ff4-8661-316f063b0331.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:39:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Motion-Grounded Video Reasoning",
+    "Video Segmentation",
+    "Spatiotemporal Grounding",
+    "Video Reasoning",
+    "Large Multimodal Models",
+    "GROUNDMORE",
+    "Pixel-Level Video Understanding"
+   ],
+   "field": "视频理解与 grounding",
+   "innovations": [
+    "提出 Motion-Grounded Video Reasoning 新任务，要求基于运动相关问题生成时空分割掩码；设计 GROUNDMORE 数据集（1,715 视频、249K 掩码、4 类推理问题）；提出 MORA 基线模型，引入 [LOC] token 实现端到端时空定位"
+   ],
+   "benchmarks": [
+    "GROUNDMORE",
+    "Ref-YouTubeVOS",
+    "MeViS",
+    "Perception Test",
+    "NExT-GQA"
+   ]
+  }
+ }
 }

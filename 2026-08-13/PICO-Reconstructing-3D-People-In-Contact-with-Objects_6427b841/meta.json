@@ -4,5 +4,30 @@
  "title": "PICO-Reconstructing-3D-People-In-Contact-with-Objects",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 14:56:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/16c181d7-0b48-475b-878f-2c2f3e656044.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/16c181d7-0b48-475b-878f-2c2f3e656044.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:46:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Human-Object Interaction",
+    "Contact Reconstruction",
+    "Single-image 3D Recovery",
+    "Open-world 3D Objects",
+    "Dataset Construction"
+   ],
+   "field": "3D人体物体交互重建",
+   "innovations": [
+    "构建首个包含人体-物体双侧3D接触对应关系的自然图像数据集PICO-db",
+    "提出基于接触轴的快速接触转移标注方法，仅需两点击即可投影接触",
+    "开发三阶段接触引导优化方法PICO-fit，支持开放世界物体类别的重建"
+   ],
+   "benchmarks": [
+    "InterCap",
+    "DAMON",
+    "OBJaverse-LVIS"
+   ]
+  }
+ }
 }

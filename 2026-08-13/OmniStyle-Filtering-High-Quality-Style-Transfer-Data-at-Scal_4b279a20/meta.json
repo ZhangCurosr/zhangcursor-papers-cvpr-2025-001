@@ -4,5 +4,31 @@
  "title": "OmniStyle-Filtering-High-Quality-Style-Transfer-Data-at-Scal",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 14:56:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7e866437-eb54-4161-a7b3-652dc44eda3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7e866437-eb54-4161-a7b3-652dc44eda3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:43:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "风格迁移",
+    "大规模数据集",
+    "质量评估",
+    "扩散模型",
+    "指令引导生成",
+    "OmniFilter"
+   ],
+   "field": "图像风格迁移",
+   "innovations": [
+    "首个百万级配对风格迁移数据集 OmniStyle-1M（1000种风格类别）",
+    "基于CLIP+MLLM的多维质量评估过滤框架 OmniFilter（内容保持/风格一致/美学吸引力）",
+    "端到端DiT风格迁移模型 OmniStyle，统一支持指令引导与图像引导两种模式"
+   ],
+   "benchmarks": [
+    "自建2000张评测基准（20内容图×100风格图）",
+    "指令引导风格迁移评测",
+    "图像引导风格迁移评测"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Improve-Representation-for-Imbalanced-Regression-through-Geo",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 06:57:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ac63d15-bb8a-4d65-86f5-6989bb6924ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ac63d15-bb8a-4d65-86f5-6989bb6924ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:31:48",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,29 @@
  "title": "GoalFlow-Goal-Driven-Flow-Matching-for-Multimodal-Trajectori",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 06:58:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aff6f7f4-1cd2-45dc-9879-ce5a8175026c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aff6f7f4-1cd2-45dc-9879-ce5a8175026c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:31:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "端到端自动驾驶",
+    "多模态轨迹生成",
+    "Flow Matching",
+    "目标点引导",
+    "Rectified Flow",
+    "Navsim"
+   ],
+   "field": "自动驾驶轨迹规划",
+   "innovations": [
+    "目标点驱动的双阶段轨迹生成框架（目标点构建+Flow Matching生成）",
+    "基于密集词汇库与双评分机制的目标点筛选方法",
+    "单步推理的Rectified Flow轨迹生成实现实时部署"
+   ],
+   "benchmarks": [
+    "Navsim"
+   ]
+  }
+ }
 }

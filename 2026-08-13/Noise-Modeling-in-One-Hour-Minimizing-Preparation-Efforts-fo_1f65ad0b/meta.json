@@ -4,5 +4,10 @@
  "title": "Noise-Modeling-in-One-Hour-Minimizing-Preparation-Efforts-fo",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:56:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/37f53e1c-2a5b-40c3-9a1c-5b1f9c10ff05.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/37f53e1c-2a5b-40c3-9a1c-5b1f9c10ff05.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:42:11",
+  "chunks": 1
+ }
 }

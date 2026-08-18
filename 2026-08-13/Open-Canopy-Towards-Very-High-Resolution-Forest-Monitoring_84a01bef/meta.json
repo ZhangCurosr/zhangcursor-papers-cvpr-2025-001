@@ -4,5 +4,31 @@
  "title": "Open-Canopy-Towards-Very-High-Resolution-Forest-Monitoring",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-13 14:55:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/20c3d581-93c9-4d4c-9d2b-21471a19e5bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/20c3d581-93c9-4d4c-9d2b-21471a19e5bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:42:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "canopy height estimation",
+    "very high resolution remote sensing",
+    "forest monitoring",
+    "LiDAR",
+    "Vision Transformer",
+    "open benchmark"
+   ],
+   "field": "遥感与计算机视觉交叉·森林冠层高度估计",
+   "innovations": [
+    "首个完全开源的国家级1.5m分辨率冠层高度估计基准数据集Open-Canopy",
+    "提出渐进式近红外通道初始化策略适配四波段卫星影像输入",
+    "构建首个开源的树级冠层高度变化检测基准Open-Canopy-∆"
+   ],
+   "benchmarks": [
+    "Open-Canopy (train/val/test)",
+    "Open-Canopy-∆ (Chantilly Forest change detection)",
+    "Out-of-domain evaluation (Utah, US)"
+   ]
+  }
+ }
 }

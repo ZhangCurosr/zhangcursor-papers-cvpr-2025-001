@@ -4,5 +4,31 @@
  "title": "RigGS-Rigging-of-3D-Gaussians-for-Modeling-Articulated-Objec",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-13 14:56:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f209db36-8e05-4583-8708-ff5fcb2dbf55.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f209db36-8e05-4583-8708-ff5fcb2dbf55.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:47:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "rigging",
+    "articulated object modeling",
+    "novel view synthesis",
+    "skeleton extraction",
+    "template-free animation"
+   ],
+   "field": "动态3D重建与神经渲染",
+   "innovations": [
+    "无模板自动骨架提取：融合运动、几何与语义信息的启发式稀疏骨架构建算法",
+    "骨架驱动的LBS+姿态依赖细节变形：可学习skinning weights与pose-dependent detail MLP联合建模",
+    "端到端可编辑动画生成：支持姿态编辑、运动插值与跨对象运动迁移的高保真渲染"
+   ],
+   "benchmarks": [
+    "D-NeRF",
+    "DG-Mesh",
+    "ZJU-MoCap"
+   ]
+  }
+ }
 }

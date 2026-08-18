@@ -4,5 +4,33 @@
  "title": "DreamTrack-Dreaming-the-Future-for-Multimodal-Visual-Object",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 06:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5e40a7ed-5227-419b-8dac-ba4754f6ae67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5e40a7ed-5227-419b-8dac-ba4754f6ae67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:30:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual object tracking",
+    "world model",
+    "future prediction",
+    "multimodal prediction",
+    "temporal modeling",
+    "self-supervised learning"
+   ],
+   "field": "视觉目标跟踪",
+   "innovations": [
+    "首次将跟踪重定义为History-to-Future过程",
+    "引入世界模型Future Dreaming模块学习时序动态",
+    "多模态预测处理未来不确定性"
+   ],
+   "benchmarks": [
+    "LaSOT",
+    "TrackingNet",
+    "GOT-10k",
+    "TNL2K",
+    "OTB100"
+   ]
+  }
+ }
 }

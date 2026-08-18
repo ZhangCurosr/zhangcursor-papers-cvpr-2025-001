@@ -4,5 +4,30 @@
  "title": "ReCapture-Generative-Video-Camera-Controls-for-User-Provided",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:55:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f07f08c0-f75f-42dc-85c8-19d4efb4eef5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f07f08c0-f75f-42dc-85c8-19d4efb4eef5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:47:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video camera control",
+    "novel view synthesis",
+    "masked fine-tuning",
+    "LoRA",
+    "diffusion model",
+    "video editing"
+   ],
+   "field": "视频生成与编辑",
+   "innovations": [
+    "提出掩码视频微调技术，分离空间外观学习与时间运动学习",
+    "两阶段策略：锚视频生成+扩散精化，无需配对训练数据",
+    "支持点云渲染和多视角扩散双路径锚视频生成"
+   ],
+   "benchmarks": [
+    "Kubric-4D",
+    "VBench"
+   ]
+  }
+ }
 }

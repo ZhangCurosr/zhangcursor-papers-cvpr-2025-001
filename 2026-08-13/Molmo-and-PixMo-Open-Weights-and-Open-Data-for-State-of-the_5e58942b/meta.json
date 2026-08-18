@@ -4,5 +4,41 @@
  "title": "Molmo-and-PixMo-Open-Weights-and-Open-Data-for-State-of-the",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-13 14:56:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/de554932-6df3-4c7b-8d8f-a6fd8672c9aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/de554932-6df3-4c7b-8d8f-a6fd8672c9aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 07:39:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Model",
+    "Open-Source VLM",
+    "PixMo Dataset",
+    "Dense Captioning",
+    "Grounding",
+    "Counting",
+    "Overlapping Multi-crop",
+    "Text-only Dropout"
+   ],
+   "field": "多模态大模型",
+   "innovations": [
+    "构建完全不依赖闭源VLM蒸馏的PixMo数据集（语音描述+dense caption+2D点标注）",
+    "提出交叠多裁剪（overlapping multi-crop）策略提升ViT高分辨率建模能力",
+    "Point-then-Count链式推理策略实现计数SOTA，配合text-only dropout提升预训练质量"
+   ],
+   "benchmarks": [
+    "VQA v2.0",
+    "ChartQA",
+    "DocVQA",
+    "CountBenchQA",
+    "PixMo-Count",
+    "MMMU",
+    "MathVista",
+    "RealWorldQA",
+    "AI2D",
+    "InfographicVQA",
+    "TextVQA"
+   ]
+  }
+ }
 }
