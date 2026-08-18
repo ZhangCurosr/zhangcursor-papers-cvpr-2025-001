@@ -4,5 +4,31 @@
  "title": "SPARC-Score-Prompting-and-Adaptive-Fusion-for-Zero-Shot-Mult",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-13 14:55:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cfa2425b-6daf-41b5-a5c9-7e23ee891efb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cfa2425b-6daf-41b5-a5c9-7e23ee891efb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 10:53:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot multi-label recognition",
+    "vision-language models",
+    "score normalization",
+    "compound prompt",
+    "rank fusion",
+    "order statistics"
+   ],
+   "field": "多模态零样本/开放词汇识别",
+   "innovations": [
+    "两级标准化去除 VLM 图像级与提示级偏差",
+    "基于 co-occurrence 的复合提示与 PCA 自适应排序融合",
+    "发现并解释 VLM 复合提示的 OR+AND-bonus 噪声结构，论证次高得分优于最大值"
+   ],
+   "benchmarks": [
+    "COCO2014",
+    "VOC2007",
+    "NUSWIDE"
+   ]
+  }
+ }
 }

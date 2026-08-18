@@ -4,5 +4,35 @@
  "title": "Scaling-up-Image-Segmentation-across-Data-and-Tasks",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 14:56:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/17bd4111-e8e4-4388-bbde-df72604f949c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/17bd4111-e8e4-4388-bbde-df72604f949c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 10:53:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image segmentation",
+    "scalable model",
+    "mixed query",
+    "open-vocabulary",
+    "synthetic data",
+    "multi-task",
+    "universal segmentation"
+   ],
+   "field": "通用图像分割",
+   "innovations": [
+    "提出混合查询机制，融合learnable与conditional query以兼顾实例与背景分割",
+    "构建统一文本描述训练格式，实现跨数据集跨任务联合扩展",
+    "离线生成合成mask与caption，低成本扩展训练数据规模"
+   ],
+   "benchmarks": [
+    "SeginW",
+    "COCO",
+    "ADE20K",
+    "RefCOCOg",
+    "LVIS",
+    "Objects365"
+   ]
+  }
+ }
 }
